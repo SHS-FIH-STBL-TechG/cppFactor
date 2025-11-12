@@ -1,0 +1,422 @@
+[
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/database.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\database.dir\\src\\Tool\\database.cpp.obj -c D:\\workspace\\Miner\\src\\Tool\\database.cpp",
+  "file": "D:/workspace/Miner/src/Tool/database.cpp",
+  "output": "CMakeFiles/database.dir/src/Tool/database.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/base.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\base.dir\\src\\OnlineBaseFactor\\BaseFactor\\descriptive_stats.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\BaseFactor\\descriptive_stats.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/BaseFactor/descriptive_stats.cpp",
+  "output": "CMakeFiles/base.dir/src/OnlineBaseFactor/BaseFactor/descriptive_stats.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/base.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\base.dir\\src\\OnlineBaseFactor\\BaseFactor\\correlation_analysis.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\BaseFactor\\correlation_analysis.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/BaseFactor/correlation_analysis.cpp",
+  "output": "CMakeFiles/base.dir/src/OnlineBaseFactor/BaseFactor/correlation_analysis.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/base.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\base.dir\\src\\OnlineBaseFactor\\BaseFactor\\nonparametric_stats.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\BaseFactor\\nonparametric_stats.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/BaseFactor/nonparametric_stats.cpp",
+  "output": "CMakeFiles/base.dir/src/OnlineBaseFactor/BaseFactor/nonparametric_stats.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/base.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\base.dir\\src\\OnlineBaseFactor\\BaseFactor\\signal_processing.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\BaseFactor\\signal_processing.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/BaseFactor/signal_processing.cpp",
+  "output": "CMakeFiles/base.dir/src/OnlineBaseFactor/BaseFactor/signal_processing.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/base.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\base.dir\\src\\OnlineBaseFactor\\BaseFactor\\linear_regression.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\BaseFactor\\linear_regression.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/BaseFactor/linear_regression.cpp",
+  "output": "CMakeFiles/base.dir/src/OnlineBaseFactor/BaseFactor/linear_regression.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/business.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\business.dir\\src\\OnlineBaseFactor\\BusinessFactor\\businessfactor.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\BusinessFactor\\businessfactor.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/BusinessFactor/businessfactor.cpp",
+  "output": "CMakeFiles/business.dir/src/OnlineBaseFactor/BusinessFactor/businessfactor.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/database_example.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\database_example.dir\\src\\Tool\\database_example.cpp.obj -c D:\\workspace\\Miner\\src\\Tool\\database_example.cpp",
+  "file": "D:/workspace/Miner/src/Tool/database_example.cpp",
+  "output": "CMakeFiles/database_example.dir/src/Tool/database_example.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0001_skew.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0001_skew.dir\\src\\factor_case\\0001_skew.cpp.obj -c D:\\workspace\\Miner\\src\\factor_case\\0001_skew.cpp",
+  "file": "D:/workspace/Miner/src/factor_case/0001_skew.cpp",
+  "output": "CMakeFiles/0001_skew.dir/src/factor_case/0001_skew.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0002_kurt.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0002_kurt.dir\\src\\factor_case\\0002_kurt.cpp.obj -c D:\\workspace\\Miner\\src\\factor_case\\0002_kurt.cpp",
+  "file": "D:/workspace/Miner/src/factor_case/0002_kurt.cpp",
+  "output": "CMakeFiles/0002_kurt.dir/src/factor_case/0002_kurt.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0003_max.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0003_max.dir\\src\\factor_case\\0003_max.cpp.obj -c D:\\workspace\\Miner\\src\\factor_case\\0003_max.cpp",
+  "file": "D:/workspace/Miner/src/factor_case/0003_max.cpp",
+  "output": "CMakeFiles/0003_max.dir/src/factor_case/0003_max.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0004_mean.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0004_mean.dir\\src\\factor_case\\0004_mean.cpp.obj -c D:\\workspace\\Miner\\src\\factor_case\\0004_mean.cpp",
+  "file": "D:/workspace/Miner/src/factor_case/0004_mean.cpp",
+  "output": "CMakeFiles/0004_mean.dir/src/factor_case/0004_mean.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0005_min.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0005_min.dir\\src\\factor_case\\0005_min.cpp.obj -c D:\\workspace\\Miner\\src\\factor_case\\0005_min.cpp",
+  "file": "D:/workspace/Miner/src/factor_case/0005_min.cpp",
+  "output": "CMakeFiles/0005_min.dir/src/factor_case/0005_min.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0006_std.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0006_std.dir\\src\\factor_case\\0006_std.cpp.obj -c D:\\workspace\\Miner\\src\\factor_case\\0006_std.cpp",
+  "file": "D:/workspace/Miner/src/factor_case/0006_std.cpp",
+  "output": "CMakeFiles/0006_std.dir/src/factor_case/0006_std.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0007_scm.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0007_scm.dir\\src\\factor_case\\0007_scm.cpp.obj -c D:\\workspace\\Miner\\src\\factor_case\\0007_scm.cpp",
+  "file": "D:/workspace/Miner/src/factor_case/0007_scm.cpp",
+  "output": "CMakeFiles/0007_scm.dir/src/factor_case/0007_scm.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0008_ms.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0008_ms.dir\\src\\factor_case\\0008_ms.cpp.obj -c D:\\workspace\\Miner\\src\\factor_case\\0008_ms.cpp",
+  "file": "D:/workspace/Miner/src/factor_case/0008_ms.cpp",
+  "output": "CMakeFiles/0008_ms.dir/src/factor_case/0008_ms.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0009_tb.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0009_tb.dir\\src\\factor_case\\0009_tb.cpp.obj -c D:\\workspace\\Miner\\src\\factor_case\\0009_tb.cpp",
+  "file": "D:/workspace/Miner/src/factor_case/0009_tb.cpp",
+  "output": "CMakeFiles/0009_tb.dir/src/factor_case/0009_tb.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0010_dm.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0010_dm.dir\\src\\factor_case\\0010_dm.cpp.obj -c D:\\workspace\\Miner\\src\\factor_case\\0010_dm.cpp",
+  "file": "D:/workspace/Miner/src/factor_case/0010_dm.cpp",
+  "output": "CMakeFiles/0010_dm.dir/src/factor_case/0010_dm.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0011_srcm.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0011_srcm.dir\\src\\factor_case\\0011_srcm.cpp.obj -c D:\\workspace\\Miner\\src\\factor_case\\0011_srcm.cpp",
+  "file": "D:/workspace/Miner/src/factor_case/0011_srcm.cpp",
+  "output": "CMakeFiles/0011_srcm.dir/src/factor_case/0011_srcm.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0012_trb.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0012_trb.dir\\src\\factor_case\\0012_trb.cpp.obj -c D:\\workspace\\Miner\\src\\factor_case\\0012_trb.cpp",
+  "file": "D:/workspace/Miner/src/factor_case/0012_trb.cpp",
+  "output": "CMakeFiles/0012_trb.dir/src/factor_case/0012_trb.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0013_rdm.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0013_rdm.dir\\src\\factor_case\\0013_rdm.cpp.obj -c D:\\workspace\\Miner\\src\\factor_case\\0013_rdm.cpp",
+  "file": "D:/workspace/Miner/src/factor_case/0013_rdm.cpp",
+  "output": "CMakeFiles/0013_rdm.dir/src/factor_case/0013_rdm.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0014_ols.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0014_ols.dir\\src\\factor_case\\0014_ols.cpp.obj -c D:\\workspace\\Miner\\src\\factor_case\\0014_ols.cpp",
+  "file": "D:/workspace/Miner/src/factor_case/0014_ols.cpp",
+  "output": "CMakeFiles/0014_ols.dir/src/factor_case/0014_ols.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0015_ewm_sum.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0015_ewm_sum.dir\\src\\factor_case\\0015_ewm_sum.cpp.obj -c D:\\workspace\\Miner\\src\\factor_case\\0015_ewm_sum.cpp",
+  "file": "D:/workspace/Miner/src/factor_case/0015_ewm_sum.cpp",
+  "output": "CMakeFiles/0015_ewm_sum.dir/src/factor_case/0015_ewm_sum.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0015_ewm_sum.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0015_ewm_sum.dir\\src\\OnlineBaseFactor\\OnlineEWMMethod.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineEWMMethod.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineEWMMethod.cpp",
+  "output": "CMakeFiles/0015_ewm_sum.dir/src/OnlineBaseFactor/OnlineEWMMethod.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0015_ewm_sum.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0015_ewm_sum.dir\\src\\OnlineBaseFactor\\OnlineDataCache.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineDataCache.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineDataCache.cpp",
+  "output": "CMakeFiles/0015_ewm_sum.dir/src/OnlineBaseFactor/OnlineDataCache.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0015_ewm_sum.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0015_ewm_sum.dir\\src\\OnlineBaseFactor\\OnlineBaseFactor.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineBaseFactor.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineBaseFactor.cpp",
+  "output": "CMakeFiles/0015_ewm_sum.dir/src/OnlineBaseFactor/OnlineBaseFactor.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0016_ewm_sum_product.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0016_ewm_sum_product.dir\\src\\factor_case\\0016_ewm_sum_product.cpp.obj -c D:\\workspace\\Miner\\src\\factor_case\\0016_ewm_sum_product.cpp",
+  "file": "D:/workspace/Miner/src/factor_case/0016_ewm_sum_product.cpp",
+  "output": "CMakeFiles/0016_ewm_sum_product.dir/src/factor_case/0016_ewm_sum_product.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0016_ewm_sum_product.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0016_ewm_sum_product.dir\\src\\OnlineBaseFactor\\OnlineEWMMethod.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineEWMMethod.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineEWMMethod.cpp",
+  "output": "CMakeFiles/0016_ewm_sum_product.dir/src/OnlineBaseFactor/OnlineEWMMethod.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0016_ewm_sum_product.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0016_ewm_sum_product.dir\\src\\OnlineBaseFactor\\OnlineDataCache.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineDataCache.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineDataCache.cpp",
+  "output": "CMakeFiles/0016_ewm_sum_product.dir/src/OnlineBaseFactor/OnlineDataCache.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0016_ewm_sum_product.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0016_ewm_sum_product.dir\\src\\OnlineBaseFactor\\OnlineBaseFactor.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineBaseFactor.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineBaseFactor.cpp",
+  "output": "CMakeFiles/0016_ewm_sum_product.dir/src/OnlineBaseFactor/OnlineBaseFactor.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0017_ewm_mean.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0017_ewm_mean.dir\\src\\factor_case\\0017_ewm_mean.cpp.obj -c D:\\workspace\\Miner\\src\\factor_case\\0017_ewm_mean.cpp",
+  "file": "D:/workspace/Miner/src/factor_case/0017_ewm_mean.cpp",
+  "output": "CMakeFiles/0017_ewm_mean.dir/src/factor_case/0017_ewm_mean.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0017_ewm_mean.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0017_ewm_mean.dir\\src\\OnlineBaseFactor\\OnlineEWMMethod.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineEWMMethod.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineEWMMethod.cpp",
+  "output": "CMakeFiles/0017_ewm_mean.dir/src/OnlineBaseFactor/OnlineEWMMethod.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0017_ewm_mean.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0017_ewm_mean.dir\\src\\OnlineBaseFactor\\OnlineDataCache.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineDataCache.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineDataCache.cpp",
+  "output": "CMakeFiles/0017_ewm_mean.dir/src/OnlineBaseFactor/OnlineDataCache.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0017_ewm_mean.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0017_ewm_mean.dir\\src\\OnlineBaseFactor\\OnlineBaseFactor.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineBaseFactor.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineBaseFactor.cpp",
+  "output": "CMakeFiles/0017_ewm_mean.dir/src/OnlineBaseFactor/OnlineBaseFactor.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0018_ewm_var.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0018_ewm_var.dir\\src\\factor_case\\0018_ewm_var.cpp.obj -c D:\\workspace\\Miner\\src\\factor_case\\0018_ewm_var.cpp",
+  "file": "D:/workspace/Miner/src/factor_case/0018_ewm_var.cpp",
+  "output": "CMakeFiles/0018_ewm_var.dir/src/factor_case/0018_ewm_var.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0018_ewm_var.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0018_ewm_var.dir\\src\\OnlineBaseFactor\\OnlineEWMMethod.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineEWMMethod.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineEWMMethod.cpp",
+  "output": "CMakeFiles/0018_ewm_var.dir/src/OnlineBaseFactor/OnlineEWMMethod.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0018_ewm_var.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0018_ewm_var.dir\\src\\OnlineBaseFactor\\OnlineDataCache.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineDataCache.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineDataCache.cpp",
+  "output": "CMakeFiles/0018_ewm_var.dir/src/OnlineBaseFactor/OnlineDataCache.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0018_ewm_var.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0018_ewm_var.dir\\src\\OnlineBaseFactor\\OnlineBaseFactor.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineBaseFactor.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineBaseFactor.cpp",
+  "output": "CMakeFiles/0018_ewm_var.dir/src/OnlineBaseFactor/OnlineBaseFactor.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0019_ewm_cov.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0019_ewm_cov.dir\\src\\factor_case\\0019_ewm_cov.cpp.obj -c D:\\workspace\\Miner\\src\\factor_case\\0019_ewm_cov.cpp",
+  "file": "D:/workspace/Miner/src/factor_case/0019_ewm_cov.cpp",
+  "output": "CMakeFiles/0019_ewm_cov.dir/src/factor_case/0019_ewm_cov.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0019_ewm_cov.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0019_ewm_cov.dir\\src\\OnlineBaseFactor\\OnlineEWMMethod.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineEWMMethod.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineEWMMethod.cpp",
+  "output": "CMakeFiles/0019_ewm_cov.dir/src/OnlineBaseFactor/OnlineEWMMethod.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0019_ewm_cov.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0019_ewm_cov.dir\\src\\OnlineBaseFactor\\OnlineDataCache.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineDataCache.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineDataCache.cpp",
+  "output": "CMakeFiles/0019_ewm_cov.dir/src/OnlineBaseFactor/OnlineDataCache.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0019_ewm_cov.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0019_ewm_cov.dir\\src\\OnlineBaseFactor\\OnlineBaseFactor.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineBaseFactor.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineBaseFactor.cpp",
+  "output": "CMakeFiles/0019_ewm_cov.dir/src/OnlineBaseFactor/OnlineBaseFactor.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0020_ewm_sum_product3.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0020_ewm_sum_product3.dir\\src\\factor_case\\0020_ewm_sum_product3.cpp.obj -c D:\\workspace\\Miner\\src\\factor_case\\0020_ewm_sum_product3.cpp",
+  "file": "D:/workspace/Miner/src/factor_case/0020_ewm_sum_product3.cpp",
+  "output": "CMakeFiles/0020_ewm_sum_product3.dir/src/factor_case/0020_ewm_sum_product3.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0020_ewm_sum_product3.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0020_ewm_sum_product3.dir\\src\\OnlineBaseFactor\\OnlineEWMMethod.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineEWMMethod.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineEWMMethod.cpp",
+  "output": "CMakeFiles/0020_ewm_sum_product3.dir/src/OnlineBaseFactor/OnlineEWMMethod.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0020_ewm_sum_product3.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0020_ewm_sum_product3.dir\\src\\OnlineBaseFactor\\OnlineDataCache.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineDataCache.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineDataCache.cpp",
+  "output": "CMakeFiles/0020_ewm_sum_product3.dir/src/OnlineBaseFactor/OnlineDataCache.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0020_ewm_sum_product3.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0020_ewm_sum_product3.dir\\src\\OnlineBaseFactor\\OnlineBaseFactor.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineBaseFactor.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineBaseFactor.cpp",
+  "output": "CMakeFiles/0020_ewm_sum_product3.dir/src/OnlineBaseFactor/OnlineBaseFactor.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0021_ewm_skew.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0021_ewm_skew.dir\\src\\factor_case\\0021_ewm_skew.cpp.obj -c D:\\workspace\\Miner\\src\\factor_case\\0021_ewm_skew.cpp",
+  "file": "D:/workspace/Miner/src/factor_case/0021_ewm_skew.cpp",
+  "output": "CMakeFiles/0021_ewm_skew.dir/src/factor_case/0021_ewm_skew.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0021_ewm_skew.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0021_ewm_skew.dir\\src\\OnlineBaseFactor\\OnlineEWMMethod.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineEWMMethod.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineEWMMethod.cpp",
+  "output": "CMakeFiles/0021_ewm_skew.dir/src/OnlineBaseFactor/OnlineEWMMethod.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0021_ewm_skew.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0021_ewm_skew.dir\\src\\OnlineBaseFactor\\OnlineDataCache.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineDataCache.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineDataCache.cpp",
+  "output": "CMakeFiles/0021_ewm_skew.dir/src/OnlineBaseFactor/OnlineDataCache.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/0021_ewm_skew.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\0021_ewm_skew.dir\\src\\OnlineBaseFactor\\OnlineBaseFactor.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineBaseFactor.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineBaseFactor.cpp",
+  "output": "CMakeFiles/0021_ewm_skew.dir/src/OnlineBaseFactor/OnlineBaseFactor.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/5001_cne5_1_beta.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\5001_cne5_1_beta.dir\\src\\factor_case\\5001_barra_cne5_1_beta.cpp.obj -c D:\\workspace\\Miner\\src\\factor_case\\5001_barra_cne5_1_beta.cpp",
+  "file": "D:/workspace/Miner/src/factor_case/5001_barra_cne5_1_beta.cpp",
+  "output": "CMakeFiles/5001_cne5_1_beta.dir/src/factor_case/5001_barra_cne5_1_beta.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/5001_cne5_1_beta.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\5001_cne5_1_beta.dir\\src\\Factor\\BarraCne5\\barra_cne5_1_beta.cpp.obj -c D:\\workspace\\Miner\\src\\Factor\\BarraCne5\\barra_cne5_1_beta.cpp",
+  "file": "D:/workspace/Miner/src/Factor/BarraCne5/barra_cne5_1_beta.cpp",
+  "output": "CMakeFiles/5001_cne5_1_beta.dir/src/Factor/BarraCne5/barra_cne5_1_beta.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/5001_cne5_1_beta.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\5001_cne5_1_beta.dir\\src\\DataProcess\\DataProcess.cpp.obj -c D:\\workspace\\Miner\\src\\DataProcess\\DataProcess.cpp",
+  "file": "D:/workspace/Miner/src/DataProcess/DataProcess.cpp",
+  "output": "CMakeFiles/5001_cne5_1_beta.dir/src/DataProcess/DataProcess.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/5001_cne5_1_beta.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\5001_cne5_1_beta.dir\\src\\OnlineBaseFactor\\OnlineMethod.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineMethod.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineMethod.cpp",
+  "output": "CMakeFiles/5001_cne5_1_beta.dir/src/OnlineBaseFactor/OnlineMethod.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/5001_cne5_1_beta.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\5001_cne5_1_beta.dir\\src\\OnlineBaseFactor\\OnlineDataCache.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineDataCache.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineDataCache.cpp",
+  "output": "CMakeFiles/5001_cne5_1_beta.dir/src/OnlineBaseFactor/OnlineDataCache.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/5001_cne5_1_beta.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\5001_cne5_1_beta.dir\\src\\OnlineBaseFactor\\OnlineBaseFactor.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineBaseFactor.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineBaseFactor.cpp",
+  "output": "CMakeFiles/5001_cne5_1_beta.dir/src/OnlineBaseFactor/OnlineBaseFactor.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/5002_cne5_1_beta1.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\5002_cne5_1_beta1.dir\\src\\factor_case\\5002_barra_cne5_1_beta1.cpp.obj -c D:\\workspace\\Miner\\src\\factor_case\\5002_barra_cne5_1_beta1.cpp",
+  "file": "D:/workspace/Miner/src/factor_case/5002_barra_cne5_1_beta1.cpp",
+  "output": "CMakeFiles/5002_cne5_1_beta1.dir/src/factor_case/5002_barra_cne5_1_beta1.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/5002_cne5_1_beta1.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\5002_cne5_1_beta1.dir\\src\\Factor\\BarraCne5\\barra_cne5_1_beta1.cpp.obj -c D:\\workspace\\Miner\\src\\Factor\\BarraCne5\\barra_cne5_1_beta1.cpp",
+  "file": "D:/workspace/Miner/src/Factor/BarraCne5/barra_cne5_1_beta1.cpp",
+  "output": "CMakeFiles/5002_cne5_1_beta1.dir/src/Factor/BarraCne5/barra_cne5_1_beta1.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/5002_cne5_1_beta1.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\5002_cne5_1_beta1.dir\\src\\DataProcess\\DataProcess.cpp.obj -c D:\\workspace\\Miner\\src\\DataProcess\\DataProcess.cpp",
+  "file": "D:/workspace/Miner/src/DataProcess/DataProcess.cpp",
+  "output": "CMakeFiles/5002_cne5_1_beta1.dir/src/DataProcess/DataProcess.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/5002_cne5_1_beta1.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\5002_cne5_1_beta1.dir\\src\\OnlineBaseFactor\\OnlineEWMMethod.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineEWMMethod.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineEWMMethod.cpp",
+  "output": "CMakeFiles/5002_cne5_1_beta1.dir/src/OnlineBaseFactor/OnlineEWMMethod.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/5002_cne5_1_beta1.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\5002_cne5_1_beta1.dir\\src\\OnlineBaseFactor\\OnlineDataCache.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineDataCache.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineDataCache.cpp",
+  "output": "CMakeFiles/5002_cne5_1_beta1.dir/src/OnlineBaseFactor/OnlineDataCache.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/5002_cne5_1_beta1.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\5002_cne5_1_beta1.dir\\src\\OnlineBaseFactor\\OnlineBaseFactor.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineBaseFactor.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineBaseFactor.cpp",
+  "output": "CMakeFiles/5002_cne5_1_beta1.dir/src/OnlineBaseFactor/OnlineBaseFactor.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/5002_cne5_1_beta1.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\5002_cne5_1_beta1.dir\\src\\OnlineBaseFactor\\BaseFactor\\descriptive_stats.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\BaseFactor\\descriptive_stats.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/BaseFactor/descriptive_stats.cpp",
+  "output": "CMakeFiles/5002_cne5_1_beta1.dir/src/OnlineBaseFactor/BaseFactor/descriptive_stats.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/6001_m_vpc_mut_ty_log1.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\6001_m_vpc_mut_ty_log1.dir\\src\\factor_case\\6001_m_vpc_mut_ty_log1.cpp.obj -c D:\\workspace\\Miner\\src\\factor_case\\6001_m_vpc_mut_ty_log1.cpp",
+  "file": "D:/workspace/Miner/src/factor_case/6001_m_vpc_mut_ty_log1.cpp",
+  "output": "CMakeFiles/6001_m_vpc_mut_ty_log1.dir/src/factor_case/6001_m_vpc_mut_ty_log1.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/6001_m_vpc_mut_ty_log1.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\6001_m_vpc_mut_ty_log1.dir\\src\\Factor\\MVpcMutTyLog\\m_vpc_mut_ty_log1.cpp.obj -c D:\\workspace\\Miner\\src\\Factor\\MVpcMutTyLog\\m_vpc_mut_ty_log1.cpp",
+  "file": "D:/workspace/Miner/src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log1.cpp",
+  "output": "CMakeFiles/6001_m_vpc_mut_ty_log1.dir/src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log1.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/6001_m_vpc_mut_ty_log1.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\6001_m_vpc_mut_ty_log1.dir\\src\\DataProcess\\DataProcess.cpp.obj -c D:\\workspace\\Miner\\src\\DataProcess\\DataProcess.cpp",
+  "file": "D:/workspace/Miner/src/DataProcess/DataProcess.cpp",
+  "output": "CMakeFiles/6001_m_vpc_mut_ty_log1.dir/src/DataProcess/DataProcess.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/6001_m_vpc_mut_ty_log1.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\6001_m_vpc_mut_ty_log1.dir\\src\\OnlineBaseFactor\\OnlineEWMMethod.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineEWMMethod.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineEWMMethod.cpp",
+  "output": "CMakeFiles/6001_m_vpc_mut_ty_log1.dir/src/OnlineBaseFactor/OnlineEWMMethod.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/6001_m_vpc_mut_ty_log1.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\6001_m_vpc_mut_ty_log1.dir\\src\\OnlineBaseFactor\\OnlineDataCache.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineDataCache.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineDataCache.cpp",
+  "output": "CMakeFiles/6001_m_vpc_mut_ty_log1.dir/src/OnlineBaseFactor/OnlineDataCache.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/6001_m_vpc_mut_ty_log1.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\6001_m_vpc_mut_ty_log1.dir\\src\\OnlineBaseFactor\\OnlineBaseFactor.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineBaseFactor.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineBaseFactor.cpp",
+  "output": "CMakeFiles/6001_m_vpc_mut_ty_log1.dir/src/OnlineBaseFactor/OnlineBaseFactor.cpp.obj"
+},
+{
+  "directory": "D:/workspace/Miner/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DEIGEN_DONT_PARALLELIZE=0 @CMakeFiles/6001_m_vpc_mut_ty_log1.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -g -ggdb3 -o CMakeFiles\\6001_m_vpc_mut_ty_log1.dir\\src\\OnlineBaseFactor\\OnlineMethod.cpp.obj -c D:\\workspace\\Miner\\src\\OnlineBaseFactor\\OnlineMethod.cpp",
+  "file": "D:/workspace/Miner/src/OnlineBaseFactor/OnlineMethod.cpp",
+  "output": "CMakeFiles/6001_m_vpc_mut_ty_log1.dir/src/OnlineBaseFactor/OnlineMethod.cpp.obj"
+}
+]

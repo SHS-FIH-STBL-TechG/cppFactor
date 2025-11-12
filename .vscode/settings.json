@@ -1,0 +1,14 @@
+{
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}",
+        "--background-index",
+        "--clang-tidy",
+        "--header-insertion=iwyu",
+        "--completion-style=detailed",
+        "--fallback-style=gnu",
+        "--query-driver=C:/msys64/ucrt64/bin/c++.exe,C:/msys64/ucrt64/bin/g++.exe,C:/msys64/ucrt64/bin/gcc.exe",
+        "--log=verbose"
+    ],
+    "clangd.path": "C:/msys64/ucrt64/bin/clangd.exe",
+    "clangd.checkUpdates": false
+}

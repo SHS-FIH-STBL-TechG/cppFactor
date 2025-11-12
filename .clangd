@@ -1,0 +1,44 @@
+CompileFlags:
+  Add:
+    - -std=c++17
+    - -Wno-builtin-macro-redefined
+    - -Wno-incompatible-pointer-types
+    - -Wno-unknown-pragmas
+    - -ID:/workspace/Pthon2C
+    - -ID:/workspace/Pthon2C/Eigen
+    - -ID:/workspace/Miner/lib
+    - -IC:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include
+    - -IC:/msys64/ucrt64/include/eigen3
+    - -fopenmp
+  Remove:
+    - -flto*
+    - -fno-fat-lto-objects
+  CompilationDatabase: build
+
+Index:
+  Background: Build
+  StandardLibrary: Yes
+
+InlayHints:
+  Enabled: Yes
+  ParameterNames: Yes
+  DeducedTypes: Yes
+
+Hover:
+  ShowAKA: Yes
+
+Diagnostics:
+  ClangTidy:
+    Add: [performance-*, modernize-*, readability-*]
+    Remove: [modernize-use-trailing-return-type, readability-identifier-naming]
+  UnusedIncludes: Strict
+  MissingIncludes: Strict
+  Suppress: 
+    - conflicting_types
+    - undeclared_var_use
+    - undeclared_var_use_suggest
+    - constant_integer_arg_type
+    - builtin_definition
+
+Completion:
+  AllScopes: Yes

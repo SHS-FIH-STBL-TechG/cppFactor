@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "调试 Miner 可执行程序",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "D:/workspace/Miner/bin/6001_m_vpc_mut_ty_log1.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "D:/workspace/Miner/bin",
+      "environment": [
+        {
+          "name": "MINER_ROOT",
+          "value": "D:/workspace/Miner"
+        }
+      ],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
+      "setupCommands": [
+        { "text": "-enable-pretty-printing" },
+        {
+          "text": "-interpreter-exec console \"source D:/workspace/Miner/.gdbinit\""
+        }
+      ]
+    }
+  ]
+}

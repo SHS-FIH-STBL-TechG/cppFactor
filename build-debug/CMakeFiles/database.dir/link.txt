@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libdatabase.a CMakeFiles/database.dir/src/Tool/database.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libdatabase.a

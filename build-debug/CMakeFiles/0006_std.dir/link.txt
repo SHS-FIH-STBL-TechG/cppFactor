@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\0006_std.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\0006_std.dir/objects.a @CMakeFiles\0006_std.dir\objects1.rsp
+C:\msys64\ucrt64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\0006_std.dir/objects.a -Wl,--no-whole-archive -o D:\workspace\Miner\bin\0006_std.exe -Wl,--out-implib,lib0006_std.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\0006_std.dir\linkLibs.rsp

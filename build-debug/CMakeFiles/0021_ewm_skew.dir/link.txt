@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\0021_ewm_skew.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\0021_ewm_skew.dir/objects.a @CMakeFiles\0021_ewm_skew.dir\objects1.rsp
+C:\msys64\ucrt64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\0021_ewm_skew.dir/objects.a -Wl,--no-whole-archive -o D:\workspace\Miner\bin\0021_ewm_skew.exe -Wl,--out-implib,lib0021_ewm_skew.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\0021_ewm_skew.dir\linkLibs.rsp
