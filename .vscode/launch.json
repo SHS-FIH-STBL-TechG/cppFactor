@@ -5,7 +5,7 @@
       "name": "调试 Miner 可执行程序",
       "type": "cppdbg",
       "request": "launch",
-      "program": "D:/workspace/Miner/bin/6001_m_vpc_mut_ty_log1.exe",
+      "program": "D:/workspace/Miner/bin/6002_m_vpc_mut_ty_log2.exe",
       "args": [],
       "stopAtEntry": false,
       "cwd": "D:/workspace/Miner/bin",

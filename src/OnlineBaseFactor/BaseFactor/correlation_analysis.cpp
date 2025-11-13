@@ -21,11 +21,24 @@ void BaseFactor::pearson_correlation(const VectorXd& x, const VectorXd& y, doubl
         return;
     }
     
-    double meanX, meanY;
-    nanmean(x, meanX);
-    nanmean(y, meanY);
-    double sumXY = 0, sumX2 = 0, sumY2 = 0;
+    double meanX = 0, meanY = 0;
+    //nanmean(x, meanX);
+    //nanmean(y, meanY);
     int count = 0;
+
+    for(int i = 0; i < x.size(); ++i)
+    {
+        if (!std::isnan(x[i]) && !std::isnan(y[i])) {
+            meanX += x[i];
+            meanY += y[i];
+            ++count;
+        }
+    }
+    meanX /= count;
+    meanY /= count;
+
+    double sumXY = 0, sumX2 = 0, sumY2 = 0;
+    count = 0;
     
     for (int i = 0; i < x.size(); ++i) {
         if (!std::isnan(x[i]) && !std::isnan(y[i])) {

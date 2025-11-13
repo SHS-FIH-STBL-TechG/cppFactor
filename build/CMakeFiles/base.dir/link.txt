@@ -1,2 +1,2 @@
-C:\msys64\ucrt64\bin\ar.exe qc libbase.a CMakeFiles/base.dir/src/OnlineBaseFactor/BaseFactor/descriptive_stats.cpp.obj CMakeFiles/base.dir/src/OnlineBaseFactor/BaseFactor/correlation_analysis.cpp.obj CMakeFiles/base.dir/src/OnlineBaseFactor/BaseFactor/nonparametric_stats.cpp.obj CMakeFiles/base.dir/src/OnlineBaseFactor/BaseFactor/signal_processing.cpp.obj CMakeFiles/base.dir/src/OnlineBaseFactor/BaseFactor/linear_regression.cpp.obj
-C:\msys64\ucrt64\bin\ranlib.exe libbase.a
+"C:/msys64/ucrt64/bin/gcc-ar.exe" qc libbase.a CMakeFiles/base.dir/src/OnlineBaseFactor/BaseFactor/descriptive_stats.cpp.obj CMakeFiles/base.dir/src/OnlineBaseFactor/BaseFactor/correlation_analysis.cpp.obj CMakeFiles/base.dir/src/OnlineBaseFactor/BaseFactor/nonparametric_stats.cpp.obj CMakeFiles/base.dir/src/OnlineBaseFactor/BaseFactor/signal_processing.cpp.obj CMakeFiles/base.dir/src/OnlineBaseFactor/BaseFactor/linear_regression.cpp.obj
+"C:/msys64/ucrt64/bin/gcc-ranlib.exe" libbase.a

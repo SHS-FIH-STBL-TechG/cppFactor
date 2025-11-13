@@ -7,10 +7,10 @@
 #include <climits>
 
 // 包含项目头文件
-#include "../tool/config_reader.h"
-#include "../tool/timestamp.h"
-#include "../tool/database.h"
-#include "../tool/profiler.h"
+#include "../Tool/config_reader.h"
+#include "../Tool/timestamp.h"
+#include "../Tool/database.h"
+#include "../Tool/profiler.h"
 #include "../Factor/BarraCne5/barra_cne5_1_beta1.h"
 #include "../Eigen_extra/Eigen_extra.h"
 

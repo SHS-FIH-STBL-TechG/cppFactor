@@ -70,6 +70,9 @@ public:
     
     // 转差分序列
     static void to_diff_sequence(const VectorXd& sequence, VectorXd& result);
+
+    // 转差分收益率序列
+    static void to_diff_return_sequence(const VectorXd& sequence, VectorXd& result);
 };
 
 #endif // BUSINESS_FACTOR_H

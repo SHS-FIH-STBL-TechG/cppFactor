@@ -1,13 +1,13 @@
-#include "../basefactor/basefactor.h"
+#include "../OnlineBaseFactor/BaseFactor/BaseFactor.h"
 #include <iostream>
 #include <fstream>
 #include <sstream>
 #include <vector>
 #include <string>
 #include <iomanip>
-#include "../tool/tool.h"
-#include "../tool/config_reader.h"
-#include "../tool/timestamp.h"
+#include "../Tool/Tool.h"
+#include "../Tool/config_reader.h"
+#include "../Tool/timestamp.h"
 
 using Eigen::MatrixXd;
 using Eigen::VectorXd;
@@ -16,7 +16,7 @@ using std::endl;
 
 class Factor_0014_OLS : public BaseFactor {
 public:
-        VectorXd calc_single(Tool::Database& database) override {
+        VectorXd calc_single(Tool::Database& database) {
             // 读取输入数据
             MatrixXd x_data = database.getMatrix("x_data");
             VectorXd y_data = database.getMatrix("y_data").col(0);

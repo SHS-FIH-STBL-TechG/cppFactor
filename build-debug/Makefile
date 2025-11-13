@@ -155,19 +155,6 @@ business/fast:
 .PHONY : business/fast
 
 #=============================================================================
-# Target rules for targets named database_example
-
-# Build rule for target.
-database_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 database_example
-.PHONY : database_example
-
-# fast build rule for target.
-database_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\database_example.dir\build.make CMakeFiles/database_example.dir/build
-.PHONY : database_example/fast
-
-#=============================================================================
 # Target rules for targets named 0001_skew
 
 # Build rule for target.
@@ -479,6 +466,19 @@ database_example/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6001_m_vpc_mut_ty_log1.dir\build.make CMakeFiles/6001_m_vpc_mut_ty_log1.dir/build
 .PHONY : 6001_m_vpc_mut_ty_log1/fast
 
+#=============================================================================
+# Target rules for targets named 6002_m_vpc_mut_ty_log2
+
+# Build rule for target.
+6002_m_vpc_mut_ty_log2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 6002_m_vpc_mut_ty_log2
+.PHONY : 6002_m_vpc_mut_ty_log2
+
+# fast build rule for target.
+6002_m_vpc_mut_ty_log2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6002_m_vpc_mut_ty_log2.dir\build.make CMakeFiles/6002_m_vpc_mut_ty_log2.dir/build
+.PHONY : 6002_m_vpc_mut_ty_log2/fast
+
 src/DataProcess/DataProcess.obj: src/DataProcess/DataProcess.cpp.obj
 .PHONY : src/DataProcess/DataProcess.obj
 
@@ -487,6 +487,7 @@ src/DataProcess/DataProcess.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5001_cne5_1_beta.dir\build.make CMakeFiles/5001_cne5_1_beta.dir/src/DataProcess/DataProcess.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5002_cne5_1_beta1.dir\build.make CMakeFiles/5002_cne5_1_beta1.dir/src/DataProcess/DataProcess.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6001_m_vpc_mut_ty_log1.dir\build.make CMakeFiles/6001_m_vpc_mut_ty_log1.dir/src/DataProcess/DataProcess.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6002_m_vpc_mut_ty_log2.dir\build.make CMakeFiles/6002_m_vpc_mut_ty_log2.dir/src/DataProcess/DataProcess.cpp.obj
 .PHONY : src/DataProcess/DataProcess.cpp.obj
 
 src/DataProcess/DataProcess.i: src/DataProcess/DataProcess.cpp.i
@@ -497,6 +498,7 @@ src/DataProcess/DataProcess.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5001_cne5_1_beta.dir\build.make CMakeFiles/5001_cne5_1_beta.dir/src/DataProcess/DataProcess.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5002_cne5_1_beta1.dir\build.make CMakeFiles/5002_cne5_1_beta1.dir/src/DataProcess/DataProcess.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6001_m_vpc_mut_ty_log1.dir\build.make CMakeFiles/6001_m_vpc_mut_ty_log1.dir/src/DataProcess/DataProcess.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6002_m_vpc_mut_ty_log2.dir\build.make CMakeFiles/6002_m_vpc_mut_ty_log2.dir/src/DataProcess/DataProcess.cpp.i
 .PHONY : src/DataProcess/DataProcess.cpp.i
 
 src/DataProcess/DataProcess.s: src/DataProcess/DataProcess.cpp.s
@@ -507,6 +509,7 @@ src/DataProcess/DataProcess.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5001_cne5_1_beta.dir\build.make CMakeFiles/5001_cne5_1_beta.dir/src/DataProcess/DataProcess.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5002_cne5_1_beta1.dir\build.make CMakeFiles/5002_cne5_1_beta1.dir/src/DataProcess/DataProcess.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6001_m_vpc_mut_ty_log1.dir\build.make CMakeFiles/6001_m_vpc_mut_ty_log1.dir/src/DataProcess/DataProcess.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6002_m_vpc_mut_ty_log2.dir\build.make CMakeFiles/6002_m_vpc_mut_ty_log2.dir/src/DataProcess/DataProcess.cpp.s
 .PHONY : src/DataProcess/DataProcess.cpp.s
 
 src/Factor/BarraCne5/barra_cne5_1_beta.obj: src/Factor/BarraCne5/barra_cne5_1_beta.cpp.obj
@@ -580,6 +583,30 @@ src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log1.s: src/Factor/MVpcMutTyLog/m_vpc_mut_t
 src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6001_m_vpc_mut_ty_log1.dir\build.make CMakeFiles/6001_m_vpc_mut_ty_log1.dir/src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log1.cpp.s
 .PHONY : src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log1.cpp.s
+
+src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log2.obj: src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log2.cpp.obj
+.PHONY : src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log2.obj
+
+# target to build an object file
+src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6002_m_vpc_mut_ty_log2.dir\build.make CMakeFiles/6002_m_vpc_mut_ty_log2.dir/src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log2.cpp.obj
+.PHONY : src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log2.cpp.obj
+
+src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log2.i: src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log2.cpp.i
+.PHONY : src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log2.i
+
+# target to preprocess a source file
+src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6002_m_vpc_mut_ty_log2.dir\build.make CMakeFiles/6002_m_vpc_mut_ty_log2.dir/src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log2.cpp.i
+.PHONY : src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log2.cpp.i
+
+src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log2.s: src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log2.cpp.s
+.PHONY : src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log2.s
+
+# target to generate assembly for a file
+src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6002_m_vpc_mut_ty_log2.dir\build.make CMakeFiles/6002_m_vpc_mut_ty_log2.dir/src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log2.cpp.s
+.PHONY : src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log2.cpp.s
 
 src/OnlineBaseFactor/BaseFactor/correlation_analysis.obj: src/OnlineBaseFactor/BaseFactor/correlation_analysis.cpp.obj
 .PHONY : src/OnlineBaseFactor/BaseFactor/correlation_analysis.obj
@@ -743,6 +770,7 @@ src/OnlineBaseFactor/OnlineBaseFactor.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5001_cne5_1_beta.dir\build.make CMakeFiles/5001_cne5_1_beta.dir/src/OnlineBaseFactor/OnlineBaseFactor.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5002_cne5_1_beta1.dir\build.make CMakeFiles/5002_cne5_1_beta1.dir/src/OnlineBaseFactor/OnlineBaseFactor.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6001_m_vpc_mut_ty_log1.dir\build.make CMakeFiles/6001_m_vpc_mut_ty_log1.dir/src/OnlineBaseFactor/OnlineBaseFactor.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6002_m_vpc_mut_ty_log2.dir\build.make CMakeFiles/6002_m_vpc_mut_ty_log2.dir/src/OnlineBaseFactor/OnlineBaseFactor.cpp.obj
 .PHONY : src/OnlineBaseFactor/OnlineBaseFactor.cpp.obj
 
 src/OnlineBaseFactor/OnlineBaseFactor.i: src/OnlineBaseFactor/OnlineBaseFactor.cpp.i
@@ -760,6 +788,7 @@ src/OnlineBaseFactor/OnlineBaseFactor.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5001_cne5_1_beta.dir\build.make CMakeFiles/5001_cne5_1_beta.dir/src/OnlineBaseFactor/OnlineBaseFactor.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5002_cne5_1_beta1.dir\build.make CMakeFiles/5002_cne5_1_beta1.dir/src/OnlineBaseFactor/OnlineBaseFactor.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6001_m_vpc_mut_ty_log1.dir\build.make CMakeFiles/6001_m_vpc_mut_ty_log1.dir/src/OnlineBaseFactor/OnlineBaseFactor.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6002_m_vpc_mut_ty_log2.dir\build.make CMakeFiles/6002_m_vpc_mut_ty_log2.dir/src/OnlineBaseFactor/OnlineBaseFactor.cpp.i
 .PHONY : src/OnlineBaseFactor/OnlineBaseFactor.cpp.i
 
 src/OnlineBaseFactor/OnlineBaseFactor.s: src/OnlineBaseFactor/OnlineBaseFactor.cpp.s
@@ -777,6 +806,7 @@ src/OnlineBaseFactor/OnlineBaseFactor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5001_cne5_1_beta.dir\build.make CMakeFiles/5001_cne5_1_beta.dir/src/OnlineBaseFactor/OnlineBaseFactor.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5002_cne5_1_beta1.dir\build.make CMakeFiles/5002_cne5_1_beta1.dir/src/OnlineBaseFactor/OnlineBaseFactor.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6001_m_vpc_mut_ty_log1.dir\build.make CMakeFiles/6001_m_vpc_mut_ty_log1.dir/src/OnlineBaseFactor/OnlineBaseFactor.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6002_m_vpc_mut_ty_log2.dir\build.make CMakeFiles/6002_m_vpc_mut_ty_log2.dir/src/OnlineBaseFactor/OnlineBaseFactor.cpp.s
 .PHONY : src/OnlineBaseFactor/OnlineBaseFactor.cpp.s
 
 src/OnlineBaseFactor/OnlineDataCache.obj: src/OnlineBaseFactor/OnlineDataCache.cpp.obj
@@ -794,6 +824,7 @@ src/OnlineBaseFactor/OnlineDataCache.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5001_cne5_1_beta.dir\build.make CMakeFiles/5001_cne5_1_beta.dir/src/OnlineBaseFactor/OnlineDataCache.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5002_cne5_1_beta1.dir\build.make CMakeFiles/5002_cne5_1_beta1.dir/src/OnlineBaseFactor/OnlineDataCache.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6001_m_vpc_mut_ty_log1.dir\build.make CMakeFiles/6001_m_vpc_mut_ty_log1.dir/src/OnlineBaseFactor/OnlineDataCache.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6002_m_vpc_mut_ty_log2.dir\build.make CMakeFiles/6002_m_vpc_mut_ty_log2.dir/src/OnlineBaseFactor/OnlineDataCache.cpp.obj
 .PHONY : src/OnlineBaseFactor/OnlineDataCache.cpp.obj
 
 src/OnlineBaseFactor/OnlineDataCache.i: src/OnlineBaseFactor/OnlineDataCache.cpp.i
@@ -811,6 +842,7 @@ src/OnlineBaseFactor/OnlineDataCache.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5001_cne5_1_beta.dir\build.make CMakeFiles/5001_cne5_1_beta.dir/src/OnlineBaseFactor/OnlineDataCache.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5002_cne5_1_beta1.dir\build.make CMakeFiles/5002_cne5_1_beta1.dir/src/OnlineBaseFactor/OnlineDataCache.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6001_m_vpc_mut_ty_log1.dir\build.make CMakeFiles/6001_m_vpc_mut_ty_log1.dir/src/OnlineBaseFactor/OnlineDataCache.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6002_m_vpc_mut_ty_log2.dir\build.make CMakeFiles/6002_m_vpc_mut_ty_log2.dir/src/OnlineBaseFactor/OnlineDataCache.cpp.i
 .PHONY : src/OnlineBaseFactor/OnlineDataCache.cpp.i
 
 src/OnlineBaseFactor/OnlineDataCache.s: src/OnlineBaseFactor/OnlineDataCache.cpp.s
@@ -828,6 +860,7 @@ src/OnlineBaseFactor/OnlineDataCache.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5001_cne5_1_beta.dir\build.make CMakeFiles/5001_cne5_1_beta.dir/src/OnlineBaseFactor/OnlineDataCache.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5002_cne5_1_beta1.dir\build.make CMakeFiles/5002_cne5_1_beta1.dir/src/OnlineBaseFactor/OnlineDataCache.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6001_m_vpc_mut_ty_log1.dir\build.make CMakeFiles/6001_m_vpc_mut_ty_log1.dir/src/OnlineBaseFactor/OnlineDataCache.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6002_m_vpc_mut_ty_log2.dir\build.make CMakeFiles/6002_m_vpc_mut_ty_log2.dir/src/OnlineBaseFactor/OnlineDataCache.cpp.s
 .PHONY : src/OnlineBaseFactor/OnlineDataCache.cpp.s
 
 src/OnlineBaseFactor/OnlineEWMMethod.obj: src/OnlineBaseFactor/OnlineEWMMethod.cpp.obj
@@ -844,6 +877,7 @@ src/OnlineBaseFactor/OnlineEWMMethod.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0021_ewm_skew.dir\build.make CMakeFiles/0021_ewm_skew.dir/src/OnlineBaseFactor/OnlineEWMMethod.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5002_cne5_1_beta1.dir\build.make CMakeFiles/5002_cne5_1_beta1.dir/src/OnlineBaseFactor/OnlineEWMMethod.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6001_m_vpc_mut_ty_log1.dir\build.make CMakeFiles/6001_m_vpc_mut_ty_log1.dir/src/OnlineBaseFactor/OnlineEWMMethod.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6002_m_vpc_mut_ty_log2.dir\build.make CMakeFiles/6002_m_vpc_mut_ty_log2.dir/src/OnlineBaseFactor/OnlineEWMMethod.cpp.obj
 .PHONY : src/OnlineBaseFactor/OnlineEWMMethod.cpp.obj
 
 src/OnlineBaseFactor/OnlineEWMMethod.i: src/OnlineBaseFactor/OnlineEWMMethod.cpp.i
@@ -860,6 +894,7 @@ src/OnlineBaseFactor/OnlineEWMMethod.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0021_ewm_skew.dir\build.make CMakeFiles/0021_ewm_skew.dir/src/OnlineBaseFactor/OnlineEWMMethod.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5002_cne5_1_beta1.dir\build.make CMakeFiles/5002_cne5_1_beta1.dir/src/OnlineBaseFactor/OnlineEWMMethod.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6001_m_vpc_mut_ty_log1.dir\build.make CMakeFiles/6001_m_vpc_mut_ty_log1.dir/src/OnlineBaseFactor/OnlineEWMMethod.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6002_m_vpc_mut_ty_log2.dir\build.make CMakeFiles/6002_m_vpc_mut_ty_log2.dir/src/OnlineBaseFactor/OnlineEWMMethod.cpp.i
 .PHONY : src/OnlineBaseFactor/OnlineEWMMethod.cpp.i
 
 src/OnlineBaseFactor/OnlineEWMMethod.s: src/OnlineBaseFactor/OnlineEWMMethod.cpp.s
@@ -876,6 +911,7 @@ src/OnlineBaseFactor/OnlineEWMMethod.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0021_ewm_skew.dir\build.make CMakeFiles/0021_ewm_skew.dir/src/OnlineBaseFactor/OnlineEWMMethod.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5002_cne5_1_beta1.dir\build.make CMakeFiles/5002_cne5_1_beta1.dir/src/OnlineBaseFactor/OnlineEWMMethod.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6001_m_vpc_mut_ty_log1.dir\build.make CMakeFiles/6001_m_vpc_mut_ty_log1.dir/src/OnlineBaseFactor/OnlineEWMMethod.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6002_m_vpc_mut_ty_log2.dir\build.make CMakeFiles/6002_m_vpc_mut_ty_log2.dir/src/OnlineBaseFactor/OnlineEWMMethod.cpp.s
 .PHONY : src/OnlineBaseFactor/OnlineEWMMethod.cpp.s
 
 src/OnlineBaseFactor/OnlineMethod.obj: src/OnlineBaseFactor/OnlineMethod.cpp.obj
@@ -885,6 +921,7 @@ src/OnlineBaseFactor/OnlineMethod.obj: src/OnlineBaseFactor/OnlineMethod.cpp.obj
 src/OnlineBaseFactor/OnlineMethod.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5001_cne5_1_beta.dir\build.make CMakeFiles/5001_cne5_1_beta.dir/src/OnlineBaseFactor/OnlineMethod.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6001_m_vpc_mut_ty_log1.dir\build.make CMakeFiles/6001_m_vpc_mut_ty_log1.dir/src/OnlineBaseFactor/OnlineMethod.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6002_m_vpc_mut_ty_log2.dir\build.make CMakeFiles/6002_m_vpc_mut_ty_log2.dir/src/OnlineBaseFactor/OnlineMethod.cpp.obj
 .PHONY : src/OnlineBaseFactor/OnlineMethod.cpp.obj
 
 src/OnlineBaseFactor/OnlineMethod.i: src/OnlineBaseFactor/OnlineMethod.cpp.i
@@ -894,6 +931,7 @@ src/OnlineBaseFactor/OnlineMethod.i: src/OnlineBaseFactor/OnlineMethod.cpp.i
 src/OnlineBaseFactor/OnlineMethod.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5001_cne5_1_beta.dir\build.make CMakeFiles/5001_cne5_1_beta.dir/src/OnlineBaseFactor/OnlineMethod.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6001_m_vpc_mut_ty_log1.dir\build.make CMakeFiles/6001_m_vpc_mut_ty_log1.dir/src/OnlineBaseFactor/OnlineMethod.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6002_m_vpc_mut_ty_log2.dir\build.make CMakeFiles/6002_m_vpc_mut_ty_log2.dir/src/OnlineBaseFactor/OnlineMethod.cpp.i
 .PHONY : src/OnlineBaseFactor/OnlineMethod.cpp.i
 
 src/OnlineBaseFactor/OnlineMethod.s: src/OnlineBaseFactor/OnlineMethod.cpp.s
@@ -903,6 +941,7 @@ src/OnlineBaseFactor/OnlineMethod.s: src/OnlineBaseFactor/OnlineMethod.cpp.s
 src/OnlineBaseFactor/OnlineMethod.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5001_cne5_1_beta.dir\build.make CMakeFiles/5001_cne5_1_beta.dir/src/OnlineBaseFactor/OnlineMethod.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6001_m_vpc_mut_ty_log1.dir\build.make CMakeFiles/6001_m_vpc_mut_ty_log1.dir/src/OnlineBaseFactor/OnlineMethod.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6002_m_vpc_mut_ty_log2.dir\build.make CMakeFiles/6002_m_vpc_mut_ty_log2.dir/src/OnlineBaseFactor/OnlineMethod.cpp.s
 .PHONY : src/OnlineBaseFactor/OnlineMethod.cpp.s
 
 src/Tool/database.obj: src/Tool/database.cpp.obj
@@ -928,30 +967,6 @@ src/Tool/database.s: src/Tool/database.cpp.s
 src/Tool/database.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\database.dir\build.make CMakeFiles/database.dir/src/Tool/database.cpp.s
 .PHONY : src/Tool/database.cpp.s
-
-src/Tool/database_example.obj: src/Tool/database_example.cpp.obj
-.PHONY : src/Tool/database_example.obj
-
-# target to build an object file
-src/Tool/database_example.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\database_example.dir\build.make CMakeFiles/database_example.dir/src/Tool/database_example.cpp.obj
-.PHONY : src/Tool/database_example.cpp.obj
-
-src/Tool/database_example.i: src/Tool/database_example.cpp.i
-.PHONY : src/Tool/database_example.i
-
-# target to preprocess a source file
-src/Tool/database_example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\database_example.dir\build.make CMakeFiles/database_example.dir/src/Tool/database_example.cpp.i
-.PHONY : src/Tool/database_example.cpp.i
-
-src/Tool/database_example.s: src/Tool/database_example.cpp.s
-.PHONY : src/Tool/database_example.s
-
-# target to generate assembly for a file
-src/Tool/database_example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\database_example.dir\build.make CMakeFiles/database_example.dir/src/Tool/database_example.cpp.s
-.PHONY : src/Tool/database_example.cpp.s
 
 src/factor_case/0001_skew.obj: src/factor_case/0001_skew.cpp.obj
 .PHONY : src/factor_case/0001_skew.obj
@@ -1529,6 +1544,30 @@ src/factor_case/6001_m_vpc_mut_ty_log1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6001_m_vpc_mut_ty_log1.dir\build.make CMakeFiles/6001_m_vpc_mut_ty_log1.dir/src/factor_case/6001_m_vpc_mut_ty_log1.cpp.s
 .PHONY : src/factor_case/6001_m_vpc_mut_ty_log1.cpp.s
 
+src/factor_case/6002_m_vpc_mut_ty_log2.obj: src/factor_case/6002_m_vpc_mut_ty_log2.cpp.obj
+.PHONY : src/factor_case/6002_m_vpc_mut_ty_log2.obj
+
+# target to build an object file
+src/factor_case/6002_m_vpc_mut_ty_log2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6002_m_vpc_mut_ty_log2.dir\build.make CMakeFiles/6002_m_vpc_mut_ty_log2.dir/src/factor_case/6002_m_vpc_mut_ty_log2.cpp.obj
+.PHONY : src/factor_case/6002_m_vpc_mut_ty_log2.cpp.obj
+
+src/factor_case/6002_m_vpc_mut_ty_log2.i: src/factor_case/6002_m_vpc_mut_ty_log2.cpp.i
+.PHONY : src/factor_case/6002_m_vpc_mut_ty_log2.i
+
+# target to preprocess a source file
+src/factor_case/6002_m_vpc_mut_ty_log2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6002_m_vpc_mut_ty_log2.dir\build.make CMakeFiles/6002_m_vpc_mut_ty_log2.dir/src/factor_case/6002_m_vpc_mut_ty_log2.cpp.i
+.PHONY : src/factor_case/6002_m_vpc_mut_ty_log2.cpp.i
+
+src/factor_case/6002_m_vpc_mut_ty_log2.s: src/factor_case/6002_m_vpc_mut_ty_log2.cpp.s
+.PHONY : src/factor_case/6002_m_vpc_mut_ty_log2.s
+
+# target to generate assembly for a file
+src/factor_case/6002_m_vpc_mut_ty_log2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6002_m_vpc_mut_ty_log2.dir\build.make CMakeFiles/6002_m_vpc_mut_ty_log2.dir/src/factor_case/6002_m_vpc_mut_ty_log2.cpp.s
+.PHONY : src/factor_case/6002_m_vpc_mut_ty_log2.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1561,10 +1600,10 @@ help:
 	@echo ... 5001_cne5_1_beta
 	@echo ... 5002_cne5_1_beta1
 	@echo ... 6001_m_vpc_mut_ty_log1
+	@echo ... 6002_m_vpc_mut_ty_log2
 	@echo ... base
 	@echo ... business
 	@echo ... database
-	@echo ... database_example
 	@echo ... src/DataProcess/DataProcess.obj
 	@echo ... src/DataProcess/DataProcess.i
 	@echo ... src/DataProcess/DataProcess.s
@@ -1577,6 +1616,9 @@ help:
 	@echo ... src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log1.obj
 	@echo ... src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log1.i
 	@echo ... src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log1.s
+	@echo ... src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log2.obj
+	@echo ... src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log2.i
+	@echo ... src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log2.s
 	@echo ... src/OnlineBaseFactor/BaseFactor/correlation_analysis.obj
 	@echo ... src/OnlineBaseFactor/BaseFactor/correlation_analysis.i
 	@echo ... src/OnlineBaseFactor/BaseFactor/correlation_analysis.s
@@ -1610,9 +1652,6 @@ help:
 	@echo ... src/Tool/database.obj
 	@echo ... src/Tool/database.i
 	@echo ... src/Tool/database.s
-	@echo ... src/Tool/database_example.obj
-	@echo ... src/Tool/database_example.i
-	@echo ... src/Tool/database_example.s
 	@echo ... src/factor_case/0001_skew.obj
 	@echo ... src/factor_case/0001_skew.i
 	@echo ... src/factor_case/0001_skew.s
@@ -1685,6 +1724,9 @@ help:
 	@echo ... src/factor_case/6001_m_vpc_mut_ty_log1.obj
 	@echo ... src/factor_case/6001_m_vpc_mut_ty_log1.i
 	@echo ... src/factor_case/6001_m_vpc_mut_ty_log1.s
+	@echo ... src/factor_case/6002_m_vpc_mut_ty_log2.obj
+	@echo ... src/factor_case/6002_m_vpc_mut_ty_log2.i
+	@echo ... src/factor_case/6002_m_vpc_mut_ty_log2.s
 .PHONY : help
 
 

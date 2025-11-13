@@ -28,8 +28,8 @@ class m_vpc_mut_ty_log2(BaseFactor):  # 派生一个因子类
         MinuteVolume = MinuteVolume.iloc[-240:,:] 
         MinuteClose = MinuteClose.iloc[-240:,:]
 
-        re = (MinuteClose - MinuteClose.shift())/MinuteClose.shift()
-        rank = re.rank(pct=True)
+        re = (MinuteClose - MinuteClose.shift())/MinuteClose.shift() #增量
+        rank = re.rank(pct=True) 
         flag = pd.DataFrame((rank.values>0.9), index = re.index, columns=re.columns)
         coef = Util.array_coef(MinuteClose[flag], MinuteVolume[flag])
 

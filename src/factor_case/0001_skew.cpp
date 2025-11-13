@@ -4,9 +4,9 @@
 #include <map>
 
 // 包含项目头文件
-#include "../basefactor/basefactor.h"
-#include "../tool/tool.h"
-#include "../tool/config_reader.h"
+#include "../OnlineBaseFactor/BaseFactor/BaseFactor.h"
+#include "../Tool/Tool.h"
+#include "../Tool/config_reader.h"
 
 using Eigen::MatrixXd;
 using Eigen::VectorXd;
@@ -16,7 +16,7 @@ using std::endl;
 
 class Factor_0001_Skew : public BaseFactor {
 public:
-    VectorXd calc_single(Tool::Database& database) override {
+    VectorXd calc_single(Tool::Database& database) {
         // 读取输入数据
         MatrixXd data = database.getMatrix("test_data");
         

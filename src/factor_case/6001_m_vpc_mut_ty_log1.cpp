@@ -8,10 +8,10 @@
 #include <cmath>
 
 // 项目头文件
-#include "../tool/config_reader.h"
-#include "../tool/timestamp.h"
-#include "../tool/database.h"
-#include "../tool/profiler.h"
+#include "../Tool/config_reader.h"
+#include "../Tool/timestamp.h"
+#include "../Tool/database.h"
+#include "../Tool/profiler.h"
 #include "../Factor/MVpcMutTyLog/m_vpc_mut_ty_log1.h"
 #include "../Eigen_extra/Eigen_extra.h"
 

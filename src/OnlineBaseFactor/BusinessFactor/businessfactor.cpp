@@ -219,20 +219,39 @@ void BusinessFactor::col_split_cov(const MatrixXd& mat, VectorXd& result, bool u
 }
 
 // 转差分序列
-void BusinessFactor::to_diff_sequence(const VectorXd& sequence, VectorXd& result){
-    const int len = sequence.size();
-    result.resize(len);
-    if(len == 0){
-        return;
-    }
+void BusinessFactor::to_diff_sequence(const Ve& sequence, Ve& result) {
+    const int n = sequence.size();
+    result.resize(n);
+
+    if (n == 0) return;
+
+    // 第一项 NaN
     result[0] = std::numeric_limits<double>::quiet_NaN();
-    for(int i = 1; i < len; ++i){
-        const double prev = sequence[i - 1];
-        const double curr = sequence[i];
-        if(std::isnan(prev) || std::isnan(curr)){
-            result[i] = std::numeric_limits<double>::quiet_NaN();
-        } else {
-            result[i] = curr - prev;
-        }
+
+    // 使用 Eigen 向量化计算 diff
+    if (n > 1) {
+        result.tail(n - 1) = sequence.tail(n - 1) - sequence.head(n - 1);
+    }
+}
+
+
+// 转差分收益率序列
+void BusinessFactor::to_diff_return_sequence(const VectorXd& sequence, VectorXd& result) {
+    const int n = sequence.size();
+    result.resize(n);
+
+    if (n == 0) return;
+
+    // 计算差分（Δx）
+    // 这里不能改接口，所以手动调你的 diff 函数
+    Ve diff(n);
+    to_diff_sequence(sequence, diff);
+
+    // 第一项 NaN
+    result[0] = std::numeric_limits<double>::quiet_NaN();
+
+    if (n > 1) {
+        // Δx / x(t-1)
+        result.tail(n - 1) = diff.tail(n - 1).array() / sequence.head(n - 1).array();
     }
 }

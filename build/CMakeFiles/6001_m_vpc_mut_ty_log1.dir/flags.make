@@ -6,5 +6,5 @@ CXX_DEFINES = -DEIGEN_DONT_PARALLELIZE=0
 
 CXX_INCLUDES = @CMakeFiles/6001_m_vpc_mut_ty_log1.dir/includes_CXX.rsp
 
-CXX_FLAGS = -g -std=gnu++17 -O0 -g -ggdb3
+CXX_FLAGS = -std=gnu++17 -flto=auto -fno-fat-lto-objects -O3 -march=native -mtune=native -finline-functions
 

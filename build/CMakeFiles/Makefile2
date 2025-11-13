@@ -65,7 +65,6 @@ CMAKE_BINARY_DIR = D:\workspace\Miner\build
 all: CMakeFiles/database.dir/all
 all: CMakeFiles/base.dir/all
 all: CMakeFiles/business.dir/all
-all: CMakeFiles/database_example.dir/all
 all: CMakeFiles/0001_skew.dir/all
 all: CMakeFiles/0002_kurt.dir/all
 all: CMakeFiles/0003_max.dir/all
@@ -90,13 +89,13 @@ all: CMakeFiles/0021_ewm_skew.dir/all
 all: CMakeFiles/5001_cne5_1_beta.dir/all
 all: CMakeFiles/5002_cne5_1_beta1.dir/all
 all: CMakeFiles/6001_m_vpc_mut_ty_log1.dir/all
+all: CMakeFiles/6002_m_vpc_mut_ty_log2.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/database.dir/codegen
 codegen: CMakeFiles/base.dir/codegen
 codegen: CMakeFiles/business.dir/codegen
-codegen: CMakeFiles/database_example.dir/codegen
 codegen: CMakeFiles/0001_skew.dir/codegen
 codegen: CMakeFiles/0002_kurt.dir/codegen
 codegen: CMakeFiles/0003_max.dir/codegen
@@ -121,6 +120,7 @@ codegen: CMakeFiles/0021_ewm_skew.dir/codegen
 codegen: CMakeFiles/5001_cne5_1_beta.dir/codegen
 codegen: CMakeFiles/5002_cne5_1_beta1.dir/codegen
 codegen: CMakeFiles/6001_m_vpc_mut_ty_log1.dir/codegen
+codegen: CMakeFiles/6002_m_vpc_mut_ty_log2.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -131,7 +131,6 @@ preinstall:
 clean: CMakeFiles/database.dir/clean
 clean: CMakeFiles/base.dir/clean
 clean: CMakeFiles/business.dir/clean
-clean: CMakeFiles/database_example.dir/clean
 clean: CMakeFiles/0001_skew.dir/clean
 clean: CMakeFiles/0002_kurt.dir/clean
 clean: CMakeFiles/0003_max.dir/clean
@@ -156,6 +155,7 @@ clean: CMakeFiles/0021_ewm_skew.dir/clean
 clean: CMakeFiles/5001_cne5_1_beta.dir/clean
 clean: CMakeFiles/5002_cne5_1_beta1.dir/clean
 clean: CMakeFiles/6001_m_vpc_mut_ty_log1.dir/clean
+clean: CMakeFiles/6002_m_vpc_mut_ty_log2.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -165,7 +165,7 @@ clean: CMakeFiles/6001_m_vpc_mut_ty_log1.dir/clean
 CMakeFiles/database.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\database.dir\build.make CMakeFiles/database.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\database.dir\build.make CMakeFiles/database.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=95,96 "Built target database"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=99,100 "Built target database"
 .PHONY : CMakeFiles/database.dir/all
 
 # Build rule for subdir invocation for target.
@@ -182,7 +182,7 @@ database: CMakeFiles/database.dir/rule
 # codegen rule for target.
 CMakeFiles/database.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\database.dir\build.make CMakeFiles/database.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=95,96 "Finished codegen for target database"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=99,100 "Finished codegen for target database"
 .PHONY : CMakeFiles/database.dir/codegen
 
 # clean rule for target.
@@ -197,7 +197,7 @@ CMakeFiles/database.dir/clean:
 CMakeFiles/base.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\base.dir\build.make CMakeFiles/base.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\base.dir\build.make CMakeFiles/base.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=87,88,89,90,91,92 "Built target base"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=91,92,93,94,95,96 "Built target base"
 .PHONY : CMakeFiles/base.dir/all
 
 # Build rule for subdir invocation for target.
@@ -214,7 +214,7 @@ base: CMakeFiles/base.dir/rule
 # codegen rule for target.
 CMakeFiles/base.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\base.dir\build.make CMakeFiles/base.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=87,88,89,90,91,92 "Finished codegen for target base"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=91,92,93,94,95,96 "Finished codegen for target base"
 .PHONY : CMakeFiles/base.dir/codegen
 
 # clean rule for target.
@@ -229,7 +229,7 @@ CMakeFiles/base.dir/clean:
 CMakeFiles/business.dir/all: CMakeFiles/base.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\business.dir\build.make CMakeFiles/business.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\business.dir\build.make CMakeFiles/business.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=93,94 "Built target business"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=97,98 "Built target business"
 .PHONY : CMakeFiles/business.dir/all
 
 # Build rule for subdir invocation for target.
@@ -246,7 +246,7 @@ business: CMakeFiles/business.dir/rule
 # codegen rule for target.
 CMakeFiles/business.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\business.dir\build.make CMakeFiles/business.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=93,94 "Finished codegen for target business"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=97,98 "Finished codegen for target business"
 .PHONY : CMakeFiles/business.dir/codegen
 
 # clean rule for target.
@@ -255,52 +255,19 @@ CMakeFiles/business.dir/clean:
 .PHONY : CMakeFiles/business.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/database_example.dir
-
-# All Build rule for target.
-CMakeFiles/database_example.dir/all: CMakeFiles/base.dir/all
-CMakeFiles/database_example.dir/all: CMakeFiles/database.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\database_example.dir\build.make CMakeFiles/database_example.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\database_example.dir\build.make CMakeFiles/database_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=97,98 "Built target database_example"
-.PHONY : CMakeFiles/database_example.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/database_example.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\Miner\build\CMakeFiles 10
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/database_example.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\Miner\build\CMakeFiles 0
-.PHONY : CMakeFiles/database_example.dir/rule
-
-# Convenience name for target.
-database_example: CMakeFiles/database_example.dir/rule
-.PHONY : database_example
-
-# codegen rule for target.
-CMakeFiles/database_example.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\database_example.dir\build.make CMakeFiles/database_example.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=97,98 "Finished codegen for target database_example"
-.PHONY : CMakeFiles/database_example.dir/codegen
-
-# clean rule for target.
-CMakeFiles/database_example.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\database_example.dir\build.make CMakeFiles/database_example.dir/clean
-.PHONY : CMakeFiles/database_example.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/0001_skew.dir
 
 # All Build rule for target.
-CMakeFiles/0001_skew.dir/all: CMakeFiles/base.dir/all
 CMakeFiles/0001_skew.dir/all: CMakeFiles/database.dir/all
+CMakeFiles/0001_skew.dir/all: CMakeFiles/base.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0001_skew.dir\build.make CMakeFiles/0001_skew.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0001_skew.dir\build.make CMakeFiles/0001_skew.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=1,2 "Built target 0001_skew"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=1 "Built target 0001_skew"
 .PHONY : CMakeFiles/0001_skew.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/0001_skew.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\Miner\build\CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\Miner\build\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/0001_skew.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\Miner\build\CMakeFiles 0
 .PHONY : CMakeFiles/0001_skew.dir/rule
@@ -312,7 +279,7 @@ CMakeFiles/0001_skew.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/0001_skew.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0001_skew.dir\build.make CMakeFiles/0001_skew.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=1,2 "Finished codegen for target 0001_skew"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=1 "Finished codegen for target 0001_skew"
 .PHONY : CMakeFiles/0001_skew.dir/codegen
 
 # clean rule for target.
@@ -324,11 +291,11 @@ CMakeFiles/0001_skew.dir/clean:
 # Target rules for target CMakeFiles/0002_kurt.dir
 
 # All Build rule for target.
-CMakeFiles/0002_kurt.dir/all: CMakeFiles/base.dir/all
 CMakeFiles/0002_kurt.dir/all: CMakeFiles/database.dir/all
+CMakeFiles/0002_kurt.dir/all: CMakeFiles/base.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0002_kurt.dir\build.make CMakeFiles/0002_kurt.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0002_kurt.dir\build.make CMakeFiles/0002_kurt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=3,4 "Built target 0002_kurt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=2,3 "Built target 0002_kurt"
 .PHONY : CMakeFiles/0002_kurt.dir/all
 
 # Build rule for subdir invocation for target.
@@ -345,7 +312,7 @@ CMakeFiles/0002_kurt.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/0002_kurt.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0002_kurt.dir\build.make CMakeFiles/0002_kurt.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=3,4 "Finished codegen for target 0002_kurt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=2,3 "Finished codegen for target 0002_kurt"
 .PHONY : CMakeFiles/0002_kurt.dir/codegen
 
 # clean rule for target.
@@ -357,11 +324,11 @@ CMakeFiles/0002_kurt.dir/clean:
 # Target rules for target CMakeFiles/0003_max.dir
 
 # All Build rule for target.
-CMakeFiles/0003_max.dir/all: CMakeFiles/base.dir/all
 CMakeFiles/0003_max.dir/all: CMakeFiles/database.dir/all
+CMakeFiles/0003_max.dir/all: CMakeFiles/base.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0003_max.dir\build.make CMakeFiles/0003_max.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0003_max.dir\build.make CMakeFiles/0003_max.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=5,6 "Built target 0003_max"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=4,5 "Built target 0003_max"
 .PHONY : CMakeFiles/0003_max.dir/all
 
 # Build rule for subdir invocation for target.
@@ -378,7 +345,7 @@ CMakeFiles/0003_max.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/0003_max.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0003_max.dir\build.make CMakeFiles/0003_max.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=5,6 "Finished codegen for target 0003_max"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=4,5 "Finished codegen for target 0003_max"
 .PHONY : CMakeFiles/0003_max.dir/codegen
 
 # clean rule for target.
@@ -390,11 +357,11 @@ CMakeFiles/0003_max.dir/clean:
 # Target rules for target CMakeFiles/0004_mean.dir
 
 # All Build rule for target.
-CMakeFiles/0004_mean.dir/all: CMakeFiles/base.dir/all
 CMakeFiles/0004_mean.dir/all: CMakeFiles/database.dir/all
+CMakeFiles/0004_mean.dir/all: CMakeFiles/base.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0004_mean.dir\build.make CMakeFiles/0004_mean.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0004_mean.dir\build.make CMakeFiles/0004_mean.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=7,8 "Built target 0004_mean"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=6,7 "Built target 0004_mean"
 .PHONY : CMakeFiles/0004_mean.dir/all
 
 # Build rule for subdir invocation for target.
@@ -411,7 +378,7 @@ CMakeFiles/0004_mean.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/0004_mean.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0004_mean.dir\build.make CMakeFiles/0004_mean.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=7,8 "Finished codegen for target 0004_mean"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=6,7 "Finished codegen for target 0004_mean"
 .PHONY : CMakeFiles/0004_mean.dir/codegen
 
 # clean rule for target.
@@ -423,11 +390,11 @@ CMakeFiles/0004_mean.dir/clean:
 # Target rules for target CMakeFiles/0005_min.dir
 
 # All Build rule for target.
-CMakeFiles/0005_min.dir/all: CMakeFiles/base.dir/all
 CMakeFiles/0005_min.dir/all: CMakeFiles/database.dir/all
+CMakeFiles/0005_min.dir/all: CMakeFiles/base.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0005_min.dir\build.make CMakeFiles/0005_min.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0005_min.dir\build.make CMakeFiles/0005_min.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=9,10 "Built target 0005_min"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=8,9 "Built target 0005_min"
 .PHONY : CMakeFiles/0005_min.dir/all
 
 # Build rule for subdir invocation for target.
@@ -444,7 +411,7 @@ CMakeFiles/0005_min.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/0005_min.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0005_min.dir\build.make CMakeFiles/0005_min.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=9,10 "Finished codegen for target 0005_min"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=8,9 "Finished codegen for target 0005_min"
 .PHONY : CMakeFiles/0005_min.dir/codegen
 
 # clean rule for target.
@@ -456,11 +423,11 @@ CMakeFiles/0005_min.dir/clean:
 # Target rules for target CMakeFiles/0006_std.dir
 
 # All Build rule for target.
-CMakeFiles/0006_std.dir/all: CMakeFiles/base.dir/all
 CMakeFiles/0006_std.dir/all: CMakeFiles/database.dir/all
+CMakeFiles/0006_std.dir/all: CMakeFiles/base.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0006_std.dir\build.make CMakeFiles/0006_std.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0006_std.dir\build.make CMakeFiles/0006_std.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=11,12 "Built target 0006_std"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=10,11 "Built target 0006_std"
 .PHONY : CMakeFiles/0006_std.dir/all
 
 # Build rule for subdir invocation for target.
@@ -477,7 +444,7 @@ CMakeFiles/0006_std.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/0006_std.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0006_std.dir\build.make CMakeFiles/0006_std.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=11,12 "Finished codegen for target 0006_std"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=10,11 "Finished codegen for target 0006_std"
 .PHONY : CMakeFiles/0006_std.dir/codegen
 
 # clean rule for target.
@@ -489,12 +456,12 @@ CMakeFiles/0006_std.dir/clean:
 # Target rules for target CMakeFiles/0007_scm.dir
 
 # All Build rule for target.
+CMakeFiles/0007_scm.dir/all: CMakeFiles/database.dir/all
 CMakeFiles/0007_scm.dir/all: CMakeFiles/base.dir/all
 CMakeFiles/0007_scm.dir/all: CMakeFiles/business.dir/all
-CMakeFiles/0007_scm.dir/all: CMakeFiles/database.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0007_scm.dir\build.make CMakeFiles/0007_scm.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0007_scm.dir\build.make CMakeFiles/0007_scm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=13,14 "Built target 0007_scm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=12,13 "Built target 0007_scm"
 .PHONY : CMakeFiles/0007_scm.dir/all
 
 # Build rule for subdir invocation for target.
@@ -511,7 +478,7 @@ CMakeFiles/0007_scm.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/0007_scm.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0007_scm.dir\build.make CMakeFiles/0007_scm.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=13,14 "Finished codegen for target 0007_scm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=12,13 "Finished codegen for target 0007_scm"
 .PHONY : CMakeFiles/0007_scm.dir/codegen
 
 # clean rule for target.
@@ -523,11 +490,11 @@ CMakeFiles/0007_scm.dir/clean:
 # Target rules for target CMakeFiles/0008_ms.dir
 
 # All Build rule for target.
-CMakeFiles/0008_ms.dir/all: CMakeFiles/base.dir/all
 CMakeFiles/0008_ms.dir/all: CMakeFiles/database.dir/all
+CMakeFiles/0008_ms.dir/all: CMakeFiles/base.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0008_ms.dir\build.make CMakeFiles/0008_ms.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0008_ms.dir\build.make CMakeFiles/0008_ms.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=15,16 "Built target 0008_ms"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=14,15 "Built target 0008_ms"
 .PHONY : CMakeFiles/0008_ms.dir/all
 
 # Build rule for subdir invocation for target.
@@ -544,7 +511,7 @@ CMakeFiles/0008_ms.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/0008_ms.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0008_ms.dir\build.make CMakeFiles/0008_ms.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=15,16 "Finished codegen for target 0008_ms"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=14,15 "Finished codegen for target 0008_ms"
 .PHONY : CMakeFiles/0008_ms.dir/codegen
 
 # clean rule for target.
@@ -556,12 +523,12 @@ CMakeFiles/0008_ms.dir/clean:
 # Target rules for target CMakeFiles/0009_tb.dir
 
 # All Build rule for target.
+CMakeFiles/0009_tb.dir/all: CMakeFiles/database.dir/all
 CMakeFiles/0009_tb.dir/all: CMakeFiles/base.dir/all
 CMakeFiles/0009_tb.dir/all: CMakeFiles/business.dir/all
-CMakeFiles/0009_tb.dir/all: CMakeFiles/database.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0009_tb.dir\build.make CMakeFiles/0009_tb.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0009_tb.dir\build.make CMakeFiles/0009_tb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=17,18 "Built target 0009_tb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=16,17 "Built target 0009_tb"
 .PHONY : CMakeFiles/0009_tb.dir/all
 
 # Build rule for subdir invocation for target.
@@ -578,7 +545,7 @@ CMakeFiles/0009_tb.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/0009_tb.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0009_tb.dir\build.make CMakeFiles/0009_tb.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=17,18 "Finished codegen for target 0009_tb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=16,17 "Finished codegen for target 0009_tb"
 .PHONY : CMakeFiles/0009_tb.dir/codegen
 
 # clean rule for target.
@@ -590,11 +557,11 @@ CMakeFiles/0009_tb.dir/clean:
 # Target rules for target CMakeFiles/0010_dm.dir
 
 # All Build rule for target.
-CMakeFiles/0010_dm.dir/all: CMakeFiles/base.dir/all
 CMakeFiles/0010_dm.dir/all: CMakeFiles/database.dir/all
+CMakeFiles/0010_dm.dir/all: CMakeFiles/base.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0010_dm.dir\build.make CMakeFiles/0010_dm.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0010_dm.dir\build.make CMakeFiles/0010_dm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=19,20 "Built target 0010_dm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=18,19 "Built target 0010_dm"
 .PHONY : CMakeFiles/0010_dm.dir/all
 
 # Build rule for subdir invocation for target.
@@ -611,7 +578,7 @@ CMakeFiles/0010_dm.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/0010_dm.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0010_dm.dir\build.make CMakeFiles/0010_dm.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=19,20 "Finished codegen for target 0010_dm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=18,19 "Finished codegen for target 0010_dm"
 .PHONY : CMakeFiles/0010_dm.dir/codegen
 
 # clean rule for target.
@@ -623,12 +590,12 @@ CMakeFiles/0010_dm.dir/clean:
 # Target rules for target CMakeFiles/0011_srcm.dir
 
 # All Build rule for target.
+CMakeFiles/0011_srcm.dir/all: CMakeFiles/database.dir/all
 CMakeFiles/0011_srcm.dir/all: CMakeFiles/base.dir/all
 CMakeFiles/0011_srcm.dir/all: CMakeFiles/business.dir/all
-CMakeFiles/0011_srcm.dir/all: CMakeFiles/database.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0011_srcm.dir\build.make CMakeFiles/0011_srcm.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0011_srcm.dir\build.make CMakeFiles/0011_srcm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=21,22 "Built target 0011_srcm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=20,21 "Built target 0011_srcm"
 .PHONY : CMakeFiles/0011_srcm.dir/all
 
 # Build rule for subdir invocation for target.
@@ -645,7 +612,7 @@ CMakeFiles/0011_srcm.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/0011_srcm.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0011_srcm.dir\build.make CMakeFiles/0011_srcm.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=21,22 "Finished codegen for target 0011_srcm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=20,21 "Finished codegen for target 0011_srcm"
 .PHONY : CMakeFiles/0011_srcm.dir/codegen
 
 # clean rule for target.
@@ -657,12 +624,12 @@ CMakeFiles/0011_srcm.dir/clean:
 # Target rules for target CMakeFiles/0012_trb.dir
 
 # All Build rule for target.
+CMakeFiles/0012_trb.dir/all: CMakeFiles/database.dir/all
 CMakeFiles/0012_trb.dir/all: CMakeFiles/base.dir/all
 CMakeFiles/0012_trb.dir/all: CMakeFiles/business.dir/all
-CMakeFiles/0012_trb.dir/all: CMakeFiles/database.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0012_trb.dir\build.make CMakeFiles/0012_trb.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0012_trb.dir\build.make CMakeFiles/0012_trb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=23,24 "Built target 0012_trb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=22,23 "Built target 0012_trb"
 .PHONY : CMakeFiles/0012_trb.dir/all
 
 # Build rule for subdir invocation for target.
@@ -679,7 +646,7 @@ CMakeFiles/0012_trb.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/0012_trb.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0012_trb.dir\build.make CMakeFiles/0012_trb.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=23,24 "Finished codegen for target 0012_trb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=22,23 "Finished codegen for target 0012_trb"
 .PHONY : CMakeFiles/0012_trb.dir/codegen
 
 # clean rule for target.
@@ -691,11 +658,11 @@ CMakeFiles/0012_trb.dir/clean:
 # Target rules for target CMakeFiles/0013_rdm.dir
 
 # All Build rule for target.
-CMakeFiles/0013_rdm.dir/all: CMakeFiles/base.dir/all
 CMakeFiles/0013_rdm.dir/all: CMakeFiles/database.dir/all
+CMakeFiles/0013_rdm.dir/all: CMakeFiles/base.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0013_rdm.dir\build.make CMakeFiles/0013_rdm.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0013_rdm.dir\build.make CMakeFiles/0013_rdm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=25,26 "Built target 0013_rdm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=24,25 "Built target 0013_rdm"
 .PHONY : CMakeFiles/0013_rdm.dir/all
 
 # Build rule for subdir invocation for target.
@@ -712,7 +679,7 @@ CMakeFiles/0013_rdm.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/0013_rdm.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0013_rdm.dir\build.make CMakeFiles/0013_rdm.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=25,26 "Finished codegen for target 0013_rdm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=24,25 "Finished codegen for target 0013_rdm"
 .PHONY : CMakeFiles/0013_rdm.dir/codegen
 
 # clean rule for target.
@@ -724,16 +691,16 @@ CMakeFiles/0013_rdm.dir/clean:
 # Target rules for target CMakeFiles/0014_ols.dir
 
 # All Build rule for target.
-CMakeFiles/0014_ols.dir/all: CMakeFiles/base.dir/all
 CMakeFiles/0014_ols.dir/all: CMakeFiles/database.dir/all
+CMakeFiles/0014_ols.dir/all: CMakeFiles/base.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0014_ols.dir\build.make CMakeFiles/0014_ols.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0014_ols.dir\build.make CMakeFiles/0014_ols.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=27,28 "Built target 0014_ols"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=26 "Built target 0014_ols"
 .PHONY : CMakeFiles/0014_ols.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/0014_ols.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\Miner\build\CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\Miner\build\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/0014_ols.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\Miner\build\CMakeFiles 0
 .PHONY : CMakeFiles/0014_ols.dir/rule
@@ -745,7 +712,7 @@ CMakeFiles/0014_ols.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/0014_ols.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0014_ols.dir\build.make CMakeFiles/0014_ols.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=27,28 "Finished codegen for target 0014_ols"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=26 "Finished codegen for target 0014_ols"
 .PHONY : CMakeFiles/0014_ols.dir/codegen
 
 # clean rule for target.
@@ -757,11 +724,11 @@ CMakeFiles/0014_ols.dir/clean:
 # Target rules for target CMakeFiles/0015_ewm_sum.dir
 
 # All Build rule for target.
-CMakeFiles/0015_ewm_sum.dir/all: CMakeFiles/base.dir/all
 CMakeFiles/0015_ewm_sum.dir/all: CMakeFiles/database.dir/all
+CMakeFiles/0015_ewm_sum.dir/all: CMakeFiles/base.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0015_ewm_sum.dir\build.make CMakeFiles/0015_ewm_sum.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0015_ewm_sum.dir\build.make CMakeFiles/0015_ewm_sum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=29,30,31,32,33 "Built target 0015_ewm_sum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=27,28,29,30,31 "Built target 0015_ewm_sum"
 .PHONY : CMakeFiles/0015_ewm_sum.dir/all
 
 # Build rule for subdir invocation for target.
@@ -778,7 +745,7 @@ CMakeFiles/0015_ewm_sum.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/0015_ewm_sum.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0015_ewm_sum.dir\build.make CMakeFiles/0015_ewm_sum.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=29,30,31,32,33 "Finished codegen for target 0015_ewm_sum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=27,28,29,30,31 "Finished codegen for target 0015_ewm_sum"
 .PHONY : CMakeFiles/0015_ewm_sum.dir/codegen
 
 # clean rule for target.
@@ -790,11 +757,11 @@ CMakeFiles/0015_ewm_sum.dir/clean:
 # Target rules for target CMakeFiles/0016_ewm_sum_product.dir
 
 # All Build rule for target.
-CMakeFiles/0016_ewm_sum_product.dir/all: CMakeFiles/base.dir/all
 CMakeFiles/0016_ewm_sum_product.dir/all: CMakeFiles/database.dir/all
+CMakeFiles/0016_ewm_sum_product.dir/all: CMakeFiles/base.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0016_ewm_sum_product.dir\build.make CMakeFiles/0016_ewm_sum_product.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0016_ewm_sum_product.dir\build.make CMakeFiles/0016_ewm_sum_product.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=34,35,36,37,38 "Built target 0016_ewm_sum_product"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=32,33,34,35,36 "Built target 0016_ewm_sum_product"
 .PHONY : CMakeFiles/0016_ewm_sum_product.dir/all
 
 # Build rule for subdir invocation for target.
@@ -811,7 +778,7 @@ CMakeFiles/0016_ewm_sum_product.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/0016_ewm_sum_product.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0016_ewm_sum_product.dir\build.make CMakeFiles/0016_ewm_sum_product.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=34,35,36,37,38 "Finished codegen for target 0016_ewm_sum_product"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=32,33,34,35,36 "Finished codegen for target 0016_ewm_sum_product"
 .PHONY : CMakeFiles/0016_ewm_sum_product.dir/codegen
 
 # clean rule for target.
@@ -823,11 +790,11 @@ CMakeFiles/0016_ewm_sum_product.dir/clean:
 # Target rules for target CMakeFiles/0017_ewm_mean.dir
 
 # All Build rule for target.
-CMakeFiles/0017_ewm_mean.dir/all: CMakeFiles/base.dir/all
 CMakeFiles/0017_ewm_mean.dir/all: CMakeFiles/database.dir/all
+CMakeFiles/0017_ewm_mean.dir/all: CMakeFiles/base.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0017_ewm_mean.dir\build.make CMakeFiles/0017_ewm_mean.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0017_ewm_mean.dir\build.make CMakeFiles/0017_ewm_mean.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=39,40,41,42,43 "Built target 0017_ewm_mean"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=37,38,39,40,41 "Built target 0017_ewm_mean"
 .PHONY : CMakeFiles/0017_ewm_mean.dir/all
 
 # Build rule for subdir invocation for target.
@@ -844,7 +811,7 @@ CMakeFiles/0017_ewm_mean.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/0017_ewm_mean.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0017_ewm_mean.dir\build.make CMakeFiles/0017_ewm_mean.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=39,40,41,42,43 "Finished codegen for target 0017_ewm_mean"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=37,38,39,40,41 "Finished codegen for target 0017_ewm_mean"
 .PHONY : CMakeFiles/0017_ewm_mean.dir/codegen
 
 # clean rule for target.
@@ -856,11 +823,11 @@ CMakeFiles/0017_ewm_mean.dir/clean:
 # Target rules for target CMakeFiles/0018_ewm_var.dir
 
 # All Build rule for target.
-CMakeFiles/0018_ewm_var.dir/all: CMakeFiles/base.dir/all
 CMakeFiles/0018_ewm_var.dir/all: CMakeFiles/database.dir/all
+CMakeFiles/0018_ewm_var.dir/all: CMakeFiles/base.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0018_ewm_var.dir\build.make CMakeFiles/0018_ewm_var.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0018_ewm_var.dir\build.make CMakeFiles/0018_ewm_var.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=44,45,46,47,48 "Built target 0018_ewm_var"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=42,43,44,45,46 "Built target 0018_ewm_var"
 .PHONY : CMakeFiles/0018_ewm_var.dir/all
 
 # Build rule for subdir invocation for target.
@@ -877,7 +844,7 @@ CMakeFiles/0018_ewm_var.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/0018_ewm_var.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0018_ewm_var.dir\build.make CMakeFiles/0018_ewm_var.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=44,45,46,47,48 "Finished codegen for target 0018_ewm_var"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=42,43,44,45,46 "Finished codegen for target 0018_ewm_var"
 .PHONY : CMakeFiles/0018_ewm_var.dir/codegen
 
 # clean rule for target.
@@ -889,16 +856,16 @@ CMakeFiles/0018_ewm_var.dir/clean:
 # Target rules for target CMakeFiles/0019_ewm_cov.dir
 
 # All Build rule for target.
-CMakeFiles/0019_ewm_cov.dir/all: CMakeFiles/base.dir/all
 CMakeFiles/0019_ewm_cov.dir/all: CMakeFiles/database.dir/all
+CMakeFiles/0019_ewm_cov.dir/all: CMakeFiles/base.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0019_ewm_cov.dir\build.make CMakeFiles/0019_ewm_cov.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0019_ewm_cov.dir\build.make CMakeFiles/0019_ewm_cov.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=49,50,51,52,53 "Built target 0019_ewm_cov"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=47,48,49,50 "Built target 0019_ewm_cov"
 .PHONY : CMakeFiles/0019_ewm_cov.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/0019_ewm_cov.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\Miner\build\CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\Miner\build\CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/0019_ewm_cov.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\Miner\build\CMakeFiles 0
 .PHONY : CMakeFiles/0019_ewm_cov.dir/rule
@@ -910,7 +877,7 @@ CMakeFiles/0019_ewm_cov.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/0019_ewm_cov.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0019_ewm_cov.dir\build.make CMakeFiles/0019_ewm_cov.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=49,50,51,52,53 "Finished codegen for target 0019_ewm_cov"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=47,48,49,50 "Finished codegen for target 0019_ewm_cov"
 .PHONY : CMakeFiles/0019_ewm_cov.dir/codegen
 
 # clean rule for target.
@@ -922,11 +889,11 @@ CMakeFiles/0019_ewm_cov.dir/clean:
 # Target rules for target CMakeFiles/0020_ewm_sum_product3.dir
 
 # All Build rule for target.
-CMakeFiles/0020_ewm_sum_product3.dir/all: CMakeFiles/base.dir/all
 CMakeFiles/0020_ewm_sum_product3.dir/all: CMakeFiles/database.dir/all
+CMakeFiles/0020_ewm_sum_product3.dir/all: CMakeFiles/base.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0020_ewm_sum_product3.dir\build.make CMakeFiles/0020_ewm_sum_product3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0020_ewm_sum_product3.dir\build.make CMakeFiles/0020_ewm_sum_product3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=54,55,56,57,58 "Built target 0020_ewm_sum_product3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=51,52,53,54,55 "Built target 0020_ewm_sum_product3"
 .PHONY : CMakeFiles/0020_ewm_sum_product3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -943,7 +910,7 @@ CMakeFiles/0020_ewm_sum_product3.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/0020_ewm_sum_product3.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0020_ewm_sum_product3.dir\build.make CMakeFiles/0020_ewm_sum_product3.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=54,55,56,57,58 "Finished codegen for target 0020_ewm_sum_product3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=51,52,53,54,55 "Finished codegen for target 0020_ewm_sum_product3"
 .PHONY : CMakeFiles/0020_ewm_sum_product3.dir/codegen
 
 # clean rule for target.
@@ -955,11 +922,11 @@ CMakeFiles/0020_ewm_sum_product3.dir/clean:
 # Target rules for target CMakeFiles/0021_ewm_skew.dir
 
 # All Build rule for target.
-CMakeFiles/0021_ewm_skew.dir/all: CMakeFiles/base.dir/all
 CMakeFiles/0021_ewm_skew.dir/all: CMakeFiles/database.dir/all
+CMakeFiles/0021_ewm_skew.dir/all: CMakeFiles/base.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0021_ewm_skew.dir\build.make CMakeFiles/0021_ewm_skew.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0021_ewm_skew.dir\build.make CMakeFiles/0021_ewm_skew.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=59,60,61,62,63 "Built target 0021_ewm_skew"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=56,57,58,59,60 "Built target 0021_ewm_skew"
 .PHONY : CMakeFiles/0021_ewm_skew.dir/all
 
 # Build rule for subdir invocation for target.
@@ -976,7 +943,7 @@ CMakeFiles/0021_ewm_skew.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/0021_ewm_skew.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\0021_ewm_skew.dir\build.make CMakeFiles/0021_ewm_skew.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=59,60,61,62,63 "Finished codegen for target 0021_ewm_skew"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=56,57,58,59,60 "Finished codegen for target 0021_ewm_skew"
 .PHONY : CMakeFiles/0021_ewm_skew.dir/codegen
 
 # clean rule for target.
@@ -988,11 +955,11 @@ CMakeFiles/0021_ewm_skew.dir/clean:
 # Target rules for target CMakeFiles/5001_cne5_1_beta.dir
 
 # All Build rule for target.
-CMakeFiles/5001_cne5_1_beta.dir/all: CMakeFiles/base.dir/all
 CMakeFiles/5001_cne5_1_beta.dir/all: CMakeFiles/database.dir/all
+CMakeFiles/5001_cne5_1_beta.dir/all: CMakeFiles/base.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5001_cne5_1_beta.dir\build.make CMakeFiles/5001_cne5_1_beta.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5001_cne5_1_beta.dir\build.make CMakeFiles/5001_cne5_1_beta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=64,65,66,67,68,69,70 "Built target 5001_cne5_1_beta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=61,62,63,64,65,66,67 "Built target 5001_cne5_1_beta"
 .PHONY : CMakeFiles/5001_cne5_1_beta.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1009,7 +976,7 @@ CMakeFiles/5001_cne5_1_beta.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/5001_cne5_1_beta.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5001_cne5_1_beta.dir\build.make CMakeFiles/5001_cne5_1_beta.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=64,65,66,67,68,69,70 "Finished codegen for target 5001_cne5_1_beta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=61,62,63,64,65,66,67 "Finished codegen for target 5001_cne5_1_beta"
 .PHONY : CMakeFiles/5001_cne5_1_beta.dir/codegen
 
 # clean rule for target.
@@ -1021,11 +988,11 @@ CMakeFiles/5001_cne5_1_beta.dir/clean:
 # Target rules for target CMakeFiles/5002_cne5_1_beta1.dir
 
 # All Build rule for target.
-CMakeFiles/5002_cne5_1_beta1.dir/all: CMakeFiles/base.dir/all
 CMakeFiles/5002_cne5_1_beta1.dir/all: CMakeFiles/database.dir/all
+CMakeFiles/5002_cne5_1_beta1.dir/all: CMakeFiles/base.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5002_cne5_1_beta1.dir\build.make CMakeFiles/5002_cne5_1_beta1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5002_cne5_1_beta1.dir\build.make CMakeFiles/5002_cne5_1_beta1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=71,72,73,74,75,76,77,78 "Built target 5002_cne5_1_beta1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=68,69,70,71,72,73,74,75 "Built target 5002_cne5_1_beta1"
 .PHONY : CMakeFiles/5002_cne5_1_beta1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1042,7 +1009,7 @@ CMakeFiles/5002_cne5_1_beta1.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/5002_cne5_1_beta1.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\5002_cne5_1_beta1.dir\build.make CMakeFiles/5002_cne5_1_beta1.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=71,72,73,74,75,76,77,78 "Finished codegen for target 5002_cne5_1_beta1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=68,69,70,71,72,73,74,75 "Finished codegen for target 5002_cne5_1_beta1"
 .PHONY : CMakeFiles/5002_cne5_1_beta1.dir/codegen
 
 # clean rule for target.
@@ -1054,17 +1021,17 @@ CMakeFiles/5002_cne5_1_beta1.dir/clean:
 # Target rules for target CMakeFiles/6001_m_vpc_mut_ty_log1.dir
 
 # All Build rule for target.
+CMakeFiles/6001_m_vpc_mut_ty_log1.dir/all: CMakeFiles/database.dir/all
 CMakeFiles/6001_m_vpc_mut_ty_log1.dir/all: CMakeFiles/base.dir/all
 CMakeFiles/6001_m_vpc_mut_ty_log1.dir/all: CMakeFiles/business.dir/all
-CMakeFiles/6001_m_vpc_mut_ty_log1.dir/all: CMakeFiles/database.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6001_m_vpc_mut_ty_log1.dir\build.make CMakeFiles/6001_m_vpc_mut_ty_log1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6001_m_vpc_mut_ty_log1.dir\build.make CMakeFiles/6001_m_vpc_mut_ty_log1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=79,80,81,82,83,84,85,86 "Built target 6001_m_vpc_mut_ty_log1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=76,77,78,79,80,81,82 "Built target 6001_m_vpc_mut_ty_log1"
 .PHONY : CMakeFiles/6001_m_vpc_mut_ty_log1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/6001_m_vpc_mut_ty_log1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\Miner\build\CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\Miner\build\CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/6001_m_vpc_mut_ty_log1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\Miner\build\CMakeFiles 0
 .PHONY : CMakeFiles/6001_m_vpc_mut_ty_log1.dir/rule
@@ -1076,13 +1043,47 @@ CMakeFiles/6001_m_vpc_mut_ty_log1.dir/rule: cmake_check_build_system
 # codegen rule for target.
 CMakeFiles/6001_m_vpc_mut_ty_log1.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6001_m_vpc_mut_ty_log1.dir\build.make CMakeFiles/6001_m_vpc_mut_ty_log1.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=79,80,81,82,83,84,85,86 "Finished codegen for target 6001_m_vpc_mut_ty_log1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=76,77,78,79,80,81,82 "Finished codegen for target 6001_m_vpc_mut_ty_log1"
 .PHONY : CMakeFiles/6001_m_vpc_mut_ty_log1.dir/codegen
 
 # clean rule for target.
 CMakeFiles/6001_m_vpc_mut_ty_log1.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6001_m_vpc_mut_ty_log1.dir\build.make CMakeFiles/6001_m_vpc_mut_ty_log1.dir/clean
 .PHONY : CMakeFiles/6001_m_vpc_mut_ty_log1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/6002_m_vpc_mut_ty_log2.dir
+
+# All Build rule for target.
+CMakeFiles/6002_m_vpc_mut_ty_log2.dir/all: CMakeFiles/database.dir/all
+CMakeFiles/6002_m_vpc_mut_ty_log2.dir/all: CMakeFiles/base.dir/all
+CMakeFiles/6002_m_vpc_mut_ty_log2.dir/all: CMakeFiles/business.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6002_m_vpc_mut_ty_log2.dir\build.make CMakeFiles/6002_m_vpc_mut_ty_log2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6002_m_vpc_mut_ty_log2.dir\build.make CMakeFiles/6002_m_vpc_mut_ty_log2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=83,84,85,86,87,88,89,90 "Built target 6002_m_vpc_mut_ty_log2"
+.PHONY : CMakeFiles/6002_m_vpc_mut_ty_log2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/6002_m_vpc_mut_ty_log2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\Miner\build\CMakeFiles 18
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/6002_m_vpc_mut_ty_log2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\workspace\Miner\build\CMakeFiles 0
+.PHONY : CMakeFiles/6002_m_vpc_mut_ty_log2.dir/rule
+
+# Convenience name for target.
+6002_m_vpc_mut_ty_log2: CMakeFiles/6002_m_vpc_mut_ty_log2.dir/rule
+.PHONY : 6002_m_vpc_mut_ty_log2
+
+# codegen rule for target.
+CMakeFiles/6002_m_vpc_mut_ty_log2.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6002_m_vpc_mut_ty_log2.dir\build.make CMakeFiles/6002_m_vpc_mut_ty_log2.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\workspace\Miner\build\CMakeFiles --progress-num=83,84,85,86,87,88,89,90 "Finished codegen for target 6002_m_vpc_mut_ty_log2"
+.PHONY : CMakeFiles/6002_m_vpc_mut_ty_log2.dir/codegen
+
+# clean rule for target.
+CMakeFiles/6002_m_vpc_mut_ty_log2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\6002_m_vpc_mut_ty_log2.dir\build.make CMakeFiles/6002_m_vpc_mut_ty_log2.dir/clean
+.PHONY : CMakeFiles/6002_m_vpc_mut_ty_log2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

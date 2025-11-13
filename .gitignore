@@ -1,0 +1,15 @@
+# Python 缓存
+py_/ori_factor/
+
+# 缓存
+.cache/
+**/__pycache__/
+
+# Bin
+bin/*.exe
+bin/*.log
+
+# Build
+build/
+build-debug/
+

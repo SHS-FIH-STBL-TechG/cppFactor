@@ -1,0 +1,23 @@
+修改windows终端输出为utf8格式
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8  
+全局配置
+add-auto-load-safe-path D:/workspace/Miner/.gdbinit
+add-auto-load-safe-path D:/workspace/Miner/bin/.gdbinit
+CURSOR调试
+-exec -interpreter-exec console "python import os; print(os.path.exists(r'D:/workspace/Miner/lib/Eigen/debug/gdb/printers.py'))"
+配置构建系统
+cmake -B build -G "MinGW Makefiles"
+cmake -B build-debug -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Debug
+cmake -B build-debug -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Debug
+编译所有目标（多线程）
+cmake --build build --parallel
+
+编译特定目标（多线程）
+# 编译单个因子计算程序
+cmake --build build-debug --target 6001_m_vpc_mut_ty_log1 --parallel
+
+# 编译数据库示例
+cmake --build build --target database_example
+
+# 全部测试用例运行
+cd D:\workspace\Miner\bin; .\run_all_min.ps1; cd D:\workspace\Miner\py_\for_test;python pytest_38_all_operators.py

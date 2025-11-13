@@ -6,7 +6,7 @@
 #include <cmath>
 #include <algorithm>
 
-#include "../tool/tool.h"
+#include "../Tool/Tool.h"
 #include "../OnlineBaseFactor/OnlineEWMMethod.h"
 
 using Eigen::MatrixXd;

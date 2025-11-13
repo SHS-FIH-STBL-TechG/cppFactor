@@ -215,10 +215,6 @@ set(BUSINESS_SOURCES
     src/OnlineBaseFactor/BusinessFactor/businessfactor.cpp
 )
 
-set(EXAMPLE_SOURCES
-    src/Tool/database_example.cpp
-)
-
 # =============================================================================
 # 库目标定义
 # =============================================================================
@@ -240,10 +236,6 @@ target_include_directories(business PRIVATE ${COMMON_INCLUDE_DIRS})
 # 可执行文件定义
 # =============================================================================
 
-# 数据库示例
-add_executable(database_example ${EXAMPLE_SOURCES})
-target_link_libraries(database_example database base)
-target_include_directories(database_example PRIVATE ${COMMON_INCLUDE_DIRS})
 
 # 因子挖掘可执行文件列表
 set(FACTOR_EXECUTABLES
@@ -271,6 +263,7 @@ set(FACTOR_EXECUTABLES
     5001_cne5_1_beta:src/factor_case/5001_barra_cne5_1_beta.cpp:database,base
     5002_cne5_1_beta1:src/factor_case/5002_barra_cne5_1_beta1.cpp:database,base
     6001_m_vpc_mut_ty_log1:src/factor_case/6001_m_vpc_mut_ty_log1.cpp:database,base,business
+    6002_m_vpc_mut_ty_log2:src/factor_case/6002_m_vpc_mut_ty_log2.cpp:database,base,business
     online_example:src/factor_case/online_example.cpp:database,base,business
 )
 
@@ -323,6 +316,16 @@ foreach(FACTOR_INFO ${FACTOR_EXECUTABLES})
         add_executable(${EXEC_NAME}
             ${SOURCE_FILE}
             src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log1.cpp
+            src/DataProcess/DataProcess.cpp
+            src/OnlineBaseFactor/OnlineEWMMethod.cpp
+            src/OnlineBaseFactor/OnlineDataCache.cpp
+            src/OnlineBaseFactor/OnlineBaseFactor.cpp
+            src/OnlineBaseFactor/OnlineMethod.cpp
+        )
+    elseif(EXEC_NAME STREQUAL "6002_m_vpc_mut_ty_log2")
+        add_executable(${EXEC_NAME}
+            ${SOURCE_FILE}
+            src/Factor/MVpcMutTyLog/m_vpc_mut_ty_log2.cpp
             src/DataProcess/DataProcess.cpp
             src/OnlineBaseFactor/OnlineEWMMethod.cpp
             src/OnlineBaseFactor/OnlineDataCache.cpp
