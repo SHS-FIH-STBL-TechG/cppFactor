@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\database_example.dir/objects.a
-C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\database_example.dir/objects.a @CMakeFiles\database_example.dir\objects1.rsp
-C:\msys64\ucrt64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\database_example.dir/objects.a -Wl,--no-whole-archive -o D:\workspace\Miner\bin\database_example.exe -Wl,--out-implib,libdatabase_example.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\database_example.dir\linkLibs.rsp

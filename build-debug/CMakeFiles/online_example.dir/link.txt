@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\online_example.dir/objects.a
-C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\online_example.dir/objects.a @CMakeFiles\online_example.dir\objects1.rsp
-C:\msys64\ucrt64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\online_example.dir/objects.a -Wl,--no-whole-archive -o D:\workspace\Miner\bin\online_example.exe -Wl,--out-implib,libonline_example.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\online_example.dir\linkLibs.rsp

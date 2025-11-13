@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\0008_ms.dir/objects.a
-C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\0008_ms.dir/objects.a @CMakeFiles\0008_ms.dir\objects1.rsp
-C:\msys64\ucrt64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\0008_ms.dir/objects.a -Wl,--no-whole-archive -o D:\workspace\Miner\bin\0008_ms.exe -Wl,--out-implib,lib0008_ms.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\0008_ms.dir\linkLibs.rsp
