@@ -1,2 +1,0 @@
-"C:/msys64/ucrt64/bin/gcc-ar.exe" qc libbusiness.a CMakeFiles/business.dir/src/OnlineBaseFactor/BusinessFactor/businessfactor.cpp.obj
-"C:/msys64/ucrt64/bin/gcc-ranlib.exe" libbusiness.a
